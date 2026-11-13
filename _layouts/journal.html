@@ -1,0 +1,32 @@
+---
+layout: default
+---
+{%- assign t = site.data.ui.fa -%}
+{%- assign entries = site.rooznevesht | sort: "date" | reverse -%}
+{% include masthead.html %}
+<main class="wrap">
+  <header class="journal-head">
+    <h1>{{ t.journal }}</h1>
+    <p>{{ t.journal_tag }}</p>
+  </header>
+  {%- if entries.size == 0 -%}
+  <p class="empty journal-empty">{{ t.journal_empty }}</p>
+  {%- else -%}
+  {%- assign years = entries | group_by_exp: "e", "e.date | date: '%Y'" -%}
+  {%- for y in years -%}
+  <section class="journal-year">
+    <h2 class="year">{% include num.html n=y.name lang="fa" %}</h2>
+    {%- for e in y.items -%}
+    <article class="entry" id="{{ e.date | date: '%Y-%m-%d' }}-{{ e.slug }}">
+      <a class="entry-date" href="{{ e.url | relative_url }}"><time datetime="{{ e.date | date_to_xmlschema }}">{% include date.html date=e.date lang="fa" %}</time></a>
+      <div class="entry-body">
+        {%- if e.heading -%}<h3><a href="{{ e.url | relative_url }}">{{ e.heading }}</a></h3>{%- endif -%}
+        {%- if e.cover and e.cover != "" -%}<figure class="entry-img">{% include cover.html post=e %}</figure>{%- endif -%}
+        <div class="prose">{{ e.content }}</div>
+      </div>
+    </article>
+    {%- endfor -%}
+  </section>
+  {%- endfor -%}
+  {%- endif -%}
+</main>

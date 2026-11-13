@@ -14,7 +14,13 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+collections:
+  rooznevesht:
+    output: true
+    permalink: /fa/rooznevesht/:year/:month/:day/:title/
 defaults:
+  - scope: { path: "", type: "rooznevesht" }
+    values: { lang: fa, layout: entry }
   - scope: { path: "en" }
     values: { lang: en }
   - scope: { path: "fa" }

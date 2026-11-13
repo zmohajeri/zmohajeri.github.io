@@ -29,3 +29,19 @@ Put the cover image in `assets/img/covers/`. Commit, and GitHub Pages republishe
 ## Changing the look
 
 Layouts are in `_layouts/` and `_includes/`, styles in `assets/style.css`, and interface text for both languages in `_data/ui.yml`. Posts are never touched by a design change.
+
+## روزنوشت (journal)
+
+Journal entries live in `_rooznevesht/`, one file per entry, named `YYYY-MM-DD-short-name.md`:
+
+```
+---
+date: 2024-05-10 09:00:00 -0400
+heading: "Optional title"     # leave out for an untitled entry
+cover: ""                     # optional image
+---
+
+Entry text in Markdown.
+```
+
+They appear on `/fa/rooznevesht/`, newest first and grouped by year, and each entry also gets its own page.
