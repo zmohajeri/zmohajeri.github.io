@@ -1,0 +1,19 @@
+---
+layout: default
+title: Home
+---
+<section class="home">
+  <p class="lead">{{ site.description }}</p>
+  <div class="sections">
+    <a class="section-card" href="{{ '/en/' | relative_url }}" lang="en">
+      <h2>English</h2>
+      <p>{{ site.categories.en.size }} posts</p>
+      {% assign latest = site.categories.en.first %}{% if latest %}<span>Latest: {{ latest.title }}</span>{% endif %}
+    </a>
+    <a class="section-card fa" href="{{ '/fa/' | relative_url }}" lang="fa" dir="rtl">
+      <h2>فارسی</h2>
+      <p>{{ site.categories.fa.size | replace: "0","۰" | replace: "1","۱" | replace: "2","۲" | replace: "3","۳" | replace: "4","۴" | replace: "5","۵" | replace: "6","۶" | replace: "7","۷" | replace: "8","۸" | replace: "9","۹" }} مطلب</p>
+      {% assign latest = site.categories.fa.first %}{% if latest %}<span>تازه‌ترین: {{ latest.title }}</span>{% endif %}
+    </a>
+  </div>
+</section>

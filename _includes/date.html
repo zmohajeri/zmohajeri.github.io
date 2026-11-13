@@ -1,0 +1,8 @@
+{%- if include.lang == "fa" -%}
+{%- assign months = "ژانویه,فوریه,مارس,آوریل,مه,ژوئن,ژوئیه,اوت,سپتامبر,اکتبر,نوامبر,دسامبر" | split: "," -%}
+{%- assign m = include.date | date: "%-m" | minus: 1 -%}
+{%- capture raw -%}{{ include.date | date: "%-d" }} {{ months[m] }} {{ include.date | date: "%Y" }}{%- endcapture -%}
+{{ raw | replace: "0","۰" | replace: "1","۱" | replace: "2","۲" | replace: "3","۳" | replace: "4","۴" | replace: "5","۵" | replace: "6","۶" | replace: "7","۷" | replace: "8","۸" | replace: "9","۹" }}
+{%- else -%}
+{{ include.date | date: "%B %-d, %Y" }}
+{%- endif -%}

@@ -1,0 +1,46 @@
+:root {
+  --bg: #fbfaf7; --text: #23211e; --muted: #6f6a62; --line: #e6e2da; --accent: #8a4b2a; --card: #ffffff;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #171614; --text: #ece8e1; --muted: #a59f95; --line: #2e2b27; --accent: #e0a07a; --card: #1f1d1a; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 18px/1.7 Lora, Georgia, serif; }
+.fa, [dir="rtl"] { font-family: Vazirmatn, Tahoma, sans-serif; }
+a { color: var(--accent); }
+.wrap { max-width: 720px; margin: 0 auto; padding: 0 16px; }
+.site-header { border-bottom: 1px solid var(--line); }
+.site-header .wrap { display: flex; justify-content: space-between; align-items: center; padding-top: 18px; padding-bottom: 18px; }
+.site-title { font-weight: 600; font-size: 1.25rem; color: var(--text); text-decoration: none; }
+nav a { color: var(--muted); text-decoration: none; font-size: .95rem; }
+.intro { color: var(--muted); padding: 24px 0 0; }
+.year { font-size: .95rem; color: var(--muted); letter-spacing: .08em; border-bottom: 1px solid var(--line); padding-bottom: 6px; margin-top: 40px; }
+.post-list { list-style: none; padding: 0; margin: 0; }
+.card { display: flex; gap: 18px; padding: 16px 0; text-decoration: none; color: inherit; border-bottom: 1px solid var(--line); }
+.card img { width: 120px; height: 90px; object-fit: cover; border-radius: 6px; flex-shrink: 0; background: var(--line); }
+.card h3 { margin: 0 0 2px; font-size: 1.1rem; line-height: 1.35; color: var(--text); }
+.card:hover h3 { color: var(--accent); }
+.card time, .post time { color: var(--muted); font-size: .85rem; }
+.card p { margin: 6px 0 0; color: var(--muted); font-size: .92rem; line-height: 1.5; }
+.post header { padding: 40px 0 8px; }
+.post h1 { font-size: 2rem; line-height: 1.25; margin: 0 0 8px; }
+.post .content img { max-width: 100%; height: auto; border-radius: 6px; display: block; margin: 24px auto; }
+.post .content blockquote { margin: 0; padding-inline-start: 16px; border-inline-start: 3px solid var(--line); color: var(--muted); }
+.back { margin: 48px 0; }
+.site-footer { border-top: 1px solid var(--line); color: var(--muted); font-size: .85rem; padding: 24px 0; margin-top: 48px; }
+@media (max-width: 560px) {
+  body { font-size: 17px; }
+  .card img { width: 84px; height: 64px; }
+  .post h1 { font-size: 1.6rem; }
+}
+nav { display: flex; gap: 18px; }
+nav a.active { color: var(--accent); }
+.intro h1 { margin: 0 0 4px; font-size: 1.8rem; color: var(--text); }
+.home .lead { color: var(--muted); padding-top: 32px; }
+.sections { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 24px; }
+.section-card { display: block; padding: 28px 24px; background: var(--card); border: 1px solid var(--line); border-radius: 10px; text-decoration: none; color: var(--text); }
+.section-card:hover { border-color: var(--accent); }
+.section-card h2 { margin: 0 0 4px; font-size: 1.6rem; }
+.section-card p { margin: 0 0 12px; color: var(--muted); }
+.section-card span { font-size: .9rem; color: var(--accent); }
+@media (max-width: 560px) { .sections { grid-template-columns: 1fr; } }

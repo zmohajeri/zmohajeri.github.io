@@ -1,0 +1,18 @@
+title: Zahra Mohajeri
+description: Essays, reviews and stories by Zahra Mohajeri.
+url: "https://zmohajeri.github.io"
+baseurl: ""
+permalink: /:categories/:year/:month/:title/
+timezone: America/Toronto
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - README.md
+  - Gemfile
+defaults:
+  - scope: { path: "en" }
+    values: { lang: en }
+  - scope: { path: "fa" }
+    values: { lang: fa }

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="{{ page.lang | default: 'en' }}" dir="{% if page.lang == 'fa' %}rtl{% else %}ltr{% endif %}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Vazirmatn:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  {% seo %}
+  {% feed_meta %}
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <nav dir="ltr"><a href="{{ '/en/' | relative_url }}" lang="en"{% if page.lang == 'en' %} class="active"{% endif %}>English</a><a href="{{ '/fa/' | relative_url }}" lang="fa" class="fa{% if page.lang == 'fa' %} active{% endif %}">فارسی</a></nav>
+    </div>
+  </header>
+  <main class="wrap">
+    {{ content }}
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">© {{ 'now' | date: '%Y' }} {{ site.title }} · <a href="{{ '/feed.xml' | relative_url }}">RSS</a></div>
+  </footer>
+</body>
+</html>
