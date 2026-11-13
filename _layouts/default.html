@@ -12,7 +12,7 @@
 </head>
 <body class="lang-{{ page.lang | default: 'en' }}">
   {{ content }}
-  <div class="wrap"><footer class="foot">{%- assign yr = 'now' | date: '%Y' -%}<span>© {% include num.html n=yr lang=page.lang %} {% if page.lang == 'fa' %}زهرا مهاجری{% else %}Zahra Mohajeri{% endif %}</span><a href="{{ '/feed.xml' | relative_url }}">RSS</a></footer></div>
+  <div class="wrap"><footer class="foot">{%- assign yr = 'now' | date: '%Y' -%}<span>© {% include num.html n=yr lang=page.lang %} {% if page.lang == 'fa' %}زرنوشت · زهرا مهاجری{% else %}Golden Glyph · Zahra Mohajeri{% endif %}</span><a href="{{ '/feed.xml' | relative_url }}">RSS</a></footer></div>
   <script src="{{ '/assets/site.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 </body>
 </html>
