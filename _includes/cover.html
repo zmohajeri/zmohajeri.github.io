@@ -1,4 +1,4 @@
 {%- if include.post.cover and include.post.cover != "" -%}
 {%- if include.post.cover contains "://" -%}{%- assign src = include.post.cover -%}{%- else -%}{%- assign src = include.post.cover | relative_url -%}{%- endif -%}
-<img src="{{ src }}" alt="" loading="lazy">
+<img src="{{ src }}" alt="" loading="lazy"{% if include.post.cover_fit == "contain" %} class="contain"{% endif %}>
 {%- else -%}<div class="ph" aria-hidden="true"></div>{%- endif -%}

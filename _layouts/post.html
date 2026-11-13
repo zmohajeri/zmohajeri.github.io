@@ -12,6 +12,9 @@ layout: default
     </header>
     {%- if page.cover and page.cover != "" -%}<figure class="hero">{% include cover.html post=page %}</figure>{%- endif -%}
     <div class="prose">{{ content }}</div>
+    {%- if page.source_url -%}
+    <p class="source">{% if page.lang == 'fa' %}مطلب را از سایت <a href="{{ page.source_url }}" target="_blank" rel="noopener">{{ page.source_name }}</a> بخوانید.{% else %}Read this piece on <a href="{{ page.source_url }}" target="_blank" rel="noopener">{{ page.source_name }}</a>.{% endif %}</p>
+    {%- endif -%}
   </article>
   {%- assign others = site.categories[page.lang] | where_exp: "p", "p.url != page.url" -%}
   {%- if others.size > 0 -%}

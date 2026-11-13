@@ -73,6 +73,9 @@ img { max-width: 100%; }
 .card .body { display: grid; gap: 6px; }
 .card h3 { font-family: var(--display); font-weight: 600; font-size: 1.3rem; line-height: 1.2; margin: 0; text-wrap: balance; }
 .card p { margin: 0; color: var(--muted); font-size: 14.5px; line-height: 1.55; }
+img.contain { object-fit: contain !important; background: color-mix(in srgb, var(--line) 70%, var(--paper)); padding: 4%; }
+.source { max-width: 66ch; margin: 8px auto 0; padding-top: 18px; border-top: 1px solid var(--line); font-size: 1rem; color: var(--muted); }
+.source a { color: var(--glaze); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
 .ph { width: 100%; height: 100%; background: repeating-conic-gradient(from 45deg, var(--glaze) 0 25%, transparent 0 50%) 0 0 / 28px 28px, var(--brick); opacity: .55; }
 
 /* article */
