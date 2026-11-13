@@ -21,7 +21,12 @@ collections:
   ketab:
     output: true
     permalink: /fa/chaharshanbe-ha-ba-ketab/:year/:month/:day/:title/
+  boresh:
+    output: true
+    permalink: /fa/boreshi-az-dastan/:year/:month/:day/:title/
 defaults:
+  - scope: { path: "", type: "boresh" }
+    values: { lang: fa, layout: story }
   - scope: { path: "", type: "ketab" }
     values: { lang: fa, layout: book }
   - scope: { path: "", type: "rooznevesht" }

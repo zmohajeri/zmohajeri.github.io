@@ -198,3 +198,8 @@ img.contain { object-fit: contain !important; background: color-mix(in srgb, var
 .entry-body .prose blockquote { margin: 0 0 1.2em; padding: 4px 18px; border-inline-start: 3px solid #d4a537; color: var(--ink); }
 .entry-body .prose blockquote p { margin: 0 0 .9em; }
 .entry-body .prose blockquote p:last-child { margin-bottom: 0; }
+
+/* برشی از داستان */
+.story-excerpt { margin: 0 0 8px; line-height: 2; }
+.story-more { color: var(--glaze); font-weight: 600; font-size: 14px; }
+.story .prose p { margin-bottom: 1.6em; }

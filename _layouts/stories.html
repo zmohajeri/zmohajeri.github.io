@@ -1,0 +1,28 @@
+---
+layout: default
+---
+{%- assign t = site.data.ui.fa -%}
+{%- assign items = site.boresh | sort: "date" | reverse -%}
+{% include masthead.html %}
+<main class="wrap">
+  <header class="journal-head">
+    <h1>{{ t.stories }}</h1>
+    <p>{{ t.stories_tag }}</p>
+  </header>
+  {%- if items.size == 0 -%}
+  <p class="empty journal-empty">{{ t.stories_empty }}</p>
+  {%- else -%}
+  <section class="journal-year">
+    {%- for e in items -%}
+    <article class="entry story-item">
+      <a class="entry-date" href="{{ e.url | relative_url }}"><time datetime="{{ e.date | date_to_xmlschema }}">{% include date.html date=e.date lang="fa" %}</time></a>
+      <div class="entry-body">
+        {%- if e.heading -%}<h3><a href="{{ e.url | relative_url }}">{{ e.heading }}</a></h3>{%- endif -%}
+        <p class="story-excerpt">{{ e.excerpt | default: e.content | strip_html | truncate: 260 }}</p>
+        <a class="story-more" href="{{ e.url | relative_url }}">{{ t.stories_more }} ←</a>
+      </div>
+    </article>
+    {%- endfor -%}
+  </section>
+  {%- endif -%}
+</main>

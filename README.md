@@ -63,3 +63,7 @@ Quotes from the book as > blockquotes, then the introduction.
 ```
 
 They appear on `/fa/chaharshanbe-ha-ba-ketab/` as a shelf of covers, newest first.
+
+## برشی از داستان (story excerpts)
+
+Excerpts live in `_boresh/`, named `YYYY-MM-DD-short-name.md`, with `date`, an optional `heading` and an `excerpt` for the list page. End a line with two spaces to keep dialogue lines on separate lines. They appear on `/fa/boreshi-az-dastan/`.
