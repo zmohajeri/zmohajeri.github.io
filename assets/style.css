@@ -11,6 +11,7 @@
     --glaze: #4cc0bd; --brick: #d9895f; --band: #0b2c33; --band-ink: #e9f3f3; --band-muted: #9fc1c2; color-scheme: dark; }
 }
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 html { -webkit-text-size-adjust: 100%; }
 body { margin: 0; background: var(--paper); color: var(--ink); font: 16px/1.6 var(--text); }
 body.lang-fa, [lang="fa"] { font-family: var(--fa); }
