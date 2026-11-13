@@ -2,6 +2,7 @@
 layout: about
 title: About
 permalink: /en/about/
+epigraph: "Words are the Paintbrushes of the Soul; Craft Your Masterpiece!"
 ---
 ## Hey! So Glad You're Here.
 
