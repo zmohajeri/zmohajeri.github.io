@@ -2,15 +2,14 @@
 layout: post
 title: "Exploring the Intricate Beauty of Woven Geometric Shapes in Fabric"
 date: 2020-01-02 05:00:00 +0000
-cover: "https://static.wixstatic.com/media/12e485_29bf94a4e07a4ff681d6f2977711736d~mv2.webp"
+kicker: "Craft"
+topic: "Culture"
+cover: "/assets/img/covers/exploring-the-intricate-beauty-of-woven-geometric-shapes-in-fabric.jpg"
 excerpt: "Nobody knows where the warp and weft first appeared and the history of weaving.; But for years, this has artistically perpetuated many..."
-wix_slug: "exploring-the-intricate-beauty-of-woven-geometric-shapes-in-fabric"
 ---
 Nobody knows where the warp and weft first appeared and the history of weaving.; But for years, this has artistically perpetuated many symbols. However, according to history, “ weaving” is very old in Mazandaran and dates back to five thousand years BC. There are some signs in the “Kamar-Band” cave, which is located in Behshahr, that indicate spinning wool into yarn.
 
 One of the most important handicrafts of Mazandaran province, which consists of geometric shapes is called “Metkazin Baafi” (a kind of rug-weaving). This type of rug, which is one of the original and beautiful handicrafts of Mazandaran, was created in ancient times by picking wool and spinning yarn, and the weavers put a mental design on the rug without having a plan.
-
-![](https://static.wixstatic.com/media/12e485_29bf94a4e07a4ff681d6f2977711736d~mv2.webp)
 
 The ancients believed that the reason for naming this rug ‘’Metkazin’’ was its use for the saddle of horses, which was called by this name in the local dialect. To weave this rug, a hand-made machine was used that could pass the warps through the weft on its surface to make geometric patterns. It mainly has two sizes and is woven in dimensions of 100*60 or 150*90 cm, and for larger sizes, usually, two or three rugs are connected. Nowadays, cotton yarn and wool are used for weaving this kind of rug.
 

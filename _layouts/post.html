@@ -1,13 +1,21 @@
 ---
 layout: default
 ---
-<article class="post{% if page.lang == 'fa' %} fa{% endif %}">
-  <header>
-    <h1>{{ page.title }}</h1>
-    <time datetime="{{ page.date | date_to_xmlschema }}">{% include date.html date=page.date lang=page.lang %}</time>
-  </header>
-  <div class="content">
-    {{ content }}
-  </div>
-  <p class="back">{% if page.lang == 'fa' %}<a href="{{ '/fa/' | relative_url }}">→ همه‌ی نوشته‌های فارسی</a>{% else %}<a href="{{ '/en/' | relative_url }}">← All English posts</a>{% endif %}</p>
-</article>
+{%- assign t = site.data.ui[page.lang] -%}
+{% include masthead.html %}
+<main class="wrap">
+  <article class="article">
+    <header>
+      <span class="kicker">{{ page.kicker }}</span>
+      <h1>{{ page.title }}</h1>
+      {% include meta.html post=page lang=page.lang %}
+    </header>
+    {%- if page.cover and page.cover != "" -%}<figure class="hero">{% include cover.html post=page %}</figure>{%- endif -%}
+    <div class="prose">{{ content }}</div>
+  </article>
+  {%- assign others = site.categories[page.lang] | where_exp: "p", "p.url != page.url" -%}
+  {%- if others.size > 0 -%}
+  <div class="sechead"><h2>{{ t.related }}</h2><a class="back" href="{{ '/' | append: page.lang | append: '/' | relative_url }}">{{ t.back }}</a></div>
+  <section class="grid">{%- for p in others limit: 3 -%}{% include card.html post=p lang=page.lang %}{%- endfor -%}</section>
+  {%- endif -%}
+</main>

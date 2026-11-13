@@ -2,15 +2,14 @@
 layout: post
 title: "Who is “Dog’’? What is “Power’’?"
 date: 2022-08-02 04:00:00 +0000
-cover: "https://static.wixstatic.com/media/12e485_6ddd863f69c642729554ba2610b91225~mv2.webp"
+kicker: "Film"
+topic: "Film & Books"
+cover: "/assets/img/covers/who-is-dog-what-is-power.jpg"
 excerpt: "The “Power of the Dog” movie review After Jane Campion’s first film, “the piano”, which won the Palme d’Or, her fans were eagerly..."
-wix_slug: "who-is-dog-what-is-power"
 ---
 **The “Power of the Dog” movie review**
 
 After Jane Campion’s first film, “the piano”, which won the Palme d’Or, her fans were eagerly awaiting another masterpiece. She didn’t let her fans down with her film, “The power of the dog.”
-
-![](https://static.wixstatic.com/media/12e485_6ddd863f69c642729554ba2610b91225~mv2.webp)
 
 This noir western is based on a novel by the American Thomas Savage that was published in 1967. Taking place in 1925 Montana, the movie centers around the family cattle ranch run by Phil (Benedict Cumberbatch) and George Burbank. George leads the farm as a manager while Phil handles the farm’s day-to-day operations. The plot centers on what happens when George marries Rose (Kirsten Dunst), a widowed mother with a teenage son named Peter (Kodi Smit-McPhee). Phil hates Rose, considering her an opportunist. Rose and Phil begin a secret feud and use every opportunity to show how much they hate one another. As a result, Phil tries to get Rose’s son to bother her, which would have negative consequences for him.
 

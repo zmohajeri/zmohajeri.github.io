@@ -2,17 +2,16 @@
 layout: post
 title: "Discover the Majestic Beauty of Agha Bozorg Mosque: The Only 5-Story Mosque in the World"
 date: 2019-02-12 05:00:00 +0000
-cover: "https://static.wixstatic.com/media/12e485_ead746b1d6824c1d864e1be361b0aa86~mv2.webp"
+kicker: "Architecture"
+topic: "Culture"
+cover: "/assets/img/covers/discover-the-majestic-beauty-of-agha-bozorg-mosque-the-only-5-story-mosque-in-the-world.jpg"
 excerpt: "There are many mosques with great historical importance in our country. One of them is Agha Bozorg Mosque. This mosque, which has many..."
-wix_slug: "discover-the-majestic-beauty-of-agha-bozorg-mosque-the-only-5-story-mosque-in-the-world"
 ---
 There are many mosques with great historical importance in our country. One of them is Agha Bozorg Mosque. This mosque, which has many architectural features and is a combination of Iranian and Islamic culture and art, has features that are worth knowing about them.
 
 Kashan city is rich and unique in terms of the number of historical monuments and buildings. One of the most spectacular monuments of this city is the Agha Bozorg Mosque, which is unparalleled in our country. This beautiful mosque located in the center of the desert is the most magnificent historical monument left from the Qajar period. the building has a huge brick dome and beautifully tiled minarets that have increased its charm a hundredfold. This complex is an example of Traditional-Iranian architecture, which is the most beautiful Islamic building in Kashan.
 
 This mosque was built in 1258 AH by Haj Mohammad Taghi Khanban in memory of the late Mullah Mohammad Mehdi Naraghi known as Agha Bozorg. he was one of the clergies of Kashan who died when his son was born so they named the son the same as his father. This son also became a clergy following his father. People of Kashan, in order to recognize the father and the son better, called the father “Agha Bozorg” and the son “Agha Kouchak”, and named this mosque Agha Bozorg Mosque in appreciation of Mullah Mohammad Mehdi Naraghi’s constructive actions.
-
-![](https://static.wixstatic.com/media/12e485_ead746b1d6824c1d864e1be361b0aa86~mv2.webp)
 
 According to the evidence, this magnificent building is the last large building that was built during the decline of Iranian architecture and art. In the construction and decoration of the Agha Bozorg Mosque, various arts such as tiling, plastering, painting, and stalactite vaulting (Mogharnas) can be seen. The inscriptions of this mosque were written by prominent calligraphers of Kashan such as Mohammad Ibrahim (ancestor of the Maarefi family) and Mohammad Hossein (ancestor of the Adib family). Agha Bozorg Mosque is the only 5-story mosque in the world and is a combination of Iranian and Islamic architecture, its architecture and designs date back to the Safavid period.
 

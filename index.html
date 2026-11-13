@@ -1,19 +1,34 @@
 ---
 layout: default
-title: Home
+title: Zahra Mohajeri · زهرا مهاجری
 ---
-<section class="home">
-  <p class="lead">{{ site.description }}</p>
-  <div class="sections">
-    <a class="section-card" href="{{ '/en/' | relative_url }}" lang="en">
-      <h2>English</h2>
-      <p>{{ site.categories.en.size }} posts</p>
-      {% assign latest = site.categories.en.first %}{% if latest %}<span>Latest: {{ latest.title }}</span>{% endif %}
-    </a>
-    <a class="section-card fa" href="{{ '/fa/' | relative_url }}" lang="fa" dir="rtl">
-      <h2>فارسی</h2>
-      <p>{{ site.categories.fa.size | replace: "0","۰" | replace: "1","۱" | replace: "2","۲" | replace: "3","۳" | replace: "4","۴" | replace: "5","۵" | replace: "6","۶" | replace: "7","۷" | replace: "8","۸" | replace: "9","۹" }} مطلب</p>
-      {% assign latest = site.categories.fa.first %}{% if latest %}<span>تازه‌ترین: {{ latest.title }}</span>{% endif %}
-    </a>
-  </div>
-</section>
+<main class="split">
+  {%- assign langs = "en,fa" | split: "," -%}
+  {%- for lang in langs -%}
+  {%- assign t = site.data.ui[lang] -%}
+  {%- assign posts = site.categories[lang] -%}
+  <section class="half half-{{ lang }}" lang="{{ lang }}" dir="{% if lang == 'fa' %}rtl{% else %}ltr{% endif %}">
+    <div class="half-in">
+      <span class="kicker">{% if lang == 'fa' %}فارسی{% else %}English{% endif %}</span>
+      <a class="name" href="{{ '/' | append: lang | append: '/' | relative_url }}" data-set-lang="{{ lang }}">{% if lang == 'fa' %}زهرا <em>مهاجری</em>{% else %}Zahra <em>Mohajeri</em>{% endif %}</a>
+      <p class="tag">{{ t.tagline }}</p>
+      {%- assign first = posts.first -%}
+      {%- if first -%}
+      <a class="feature" href="{{ first.url | relative_url }}" data-set-lang="{{ lang }}">
+        <figure>{% include cover.html post=first %}</figure>
+        <span class="kicker">{{ first.kicker }}</span>
+        <h2>{{ first.title }}</h2>
+        {% include meta.html post=first lang=lang %}
+      </a>
+      {%- endif -%}
+      <ul class="list">
+        {%- for p in posts offset: 1 limit: 3 -%}
+        <li><a href="{{ p.url | relative_url }}" data-set-lang="{{ lang }}"><h3>{{ p.title }}</h3>{% include meta.html post=p lang=lang %}</a></li>
+        {%- endfor -%}
+      </ul>
+      {%- if posts.size < 2 -%}<p class="empty">{{ t.empty }}</p>{%- endif -%}
+      <a class="enter" href="{{ '/' | append: lang | append: '/' | relative_url }}" data-set-lang="{{ lang }}">{{ t.enter }} {% if lang == 'fa' %}←{% else %}→{% endif %}</a>
+    </div>
+  </section>
+  {%- endfor -%}
+</main>

@@ -2,17 +2,16 @@
 layout: post
 title: "Philosophy for a better life"
 date: 2025-03-03 01:19:20.599 +0000
-cover: "https://static.wixstatic.com/media/12e485_f136ce52c7484900bc0ebf70613fca22~mv2.jpg"
+kicker: "Philosophy"
+topic: "Essays"
+cover: "/assets/img/covers/philosophy-for-a-better-life.jpg"
 excerpt: "If we were to summarize the philosophy of Stoicism in one phrase, it would mean finding peace in life despite all difficulties. Stoics believe that we should live with reason and logic, not with [1] emotions. We must learn how to control our thoughts and emotions and behave in a way that aligns with our values. Stoicism emphasizes four main virtues: wisdom, courage, justice, and temperance. This philosophy teaches us how to face the hardships and challenges of life while maintaining our..."
-wix_slug: "philosophy-for-a-better-life"
 ---
 If we were to summarize the philosophy of Stoicism in one phrase, it would mean finding peace in life despite all difficulties. Stoics believe that we should live with reason and logic, not with [[1]](#_ftn1)emotions. We must learn how to control our thoughts and emotions and behave in a way that aligns with our values. Stoicism emphasizes four main virtues: wisdom, courage, justice, and temperance.
 
 This philosophy teaches us how to face the hardships and challenges of life while maintaining our tranquility. The most important practice in Stoicism is distinguishing between what we can change and what we cannot. There are two types of things in life: those within our control and those outside our control. Stoicism teaches us to accept what we cannot control and, instead of worrying, focus on what we can control. As Epictetus says, "The most important choice we have in life is between two things: to be concerned with things outside ourselves or with things inside ourselves. Happiness can never coexist with the desire for things we do not have."
 
 This means that while most people seek satisfaction by changing the world around them, Stoics achieve it by changing their desires and inner selves.
-
-![](https://static.wixstatic.com/media/12e485_f136ce52c7484900bc0ebf70613fca22~mv2.jpg)
 
 **My Personal Philosophy**
 

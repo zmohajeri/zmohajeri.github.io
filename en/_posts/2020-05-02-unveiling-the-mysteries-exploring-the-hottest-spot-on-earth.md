@@ -2,15 +2,14 @@
 layout: post
 title: "Unveiling the Mysteries: Exploring the Hottest Spot on Earth"
 date: 2020-05-02 04:00:00 +0000
+kicker: "Travel"
+topic: "Travel"
 cover: "https://static.wixstatic.com/media/12e485_b17fa1f58f9e443bb6cf378e5b7b9cfc~mv2.gif"
 excerpt: "In each region of four-season Iran, there is a kind of natural wonder that is different from other regions. Tourists can reach the most..."
-wix_slug: "unveiling-the-mysteries-exploring-the-hottest-spot-on-earth"
 ---
 In each region of four-season Iran, there is a kind of natural wonder that is different from other regions. Tourists can reach the most deserted areas from the verdant lands in a short distance. In the meantime, it is worth to know the hottest spot on the earth better, which its temperature reaches more than 70 °C on some days of the year.
 
 If you travel to the Kalut Shahdad Desert in Kerman, you will encounter top-flat reliefs while on the other side, hilly reliefs could be seen. Kalut is a natural and geographical phenomenon in the Lut Desert of Iran, which has been created by water, wind, and soil erosion for 20,000 years.
-
-![](https://static.wixstatic.com/media/12e485_b17fa1f58f9e443bb6cf378e5b7b9cfc~mv2.gif)
 
 The Kalut Shahdad is located in an area of more than 11,000 (sq. km) in the middle of the Lut Desert. According to geologists, this region is one of the geothermal poles of the earth, which has made it very attractive to domestic and foreign tourists.
 

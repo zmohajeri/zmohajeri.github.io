@@ -2,13 +2,12 @@
 layout: post
 title: "What Impact does BBC Persian have on Middle Eastern Politics and Society?"
 date: 2022-09-09 04:00:00 +0000
-cover: "https://static.wixstatic.com/media/12e485_c956b01193ff493297a25a6dc67afec9~mv2.webp"
+kicker: "Media"
+topic: "Essays"
+cover: "/assets/img/covers/what-impact-does-bbc-persian-have-on-middle-eastern-politics-and-society.jpg"
 excerpt: "BBC Persian has had a great deal of influence on Iranian culture, politics, and society since 1941. At first, BBC Persian was just a..."
-wix_slug: "what-impact-does-bbc-persian-have-on-middle-eastern-politics-and-society"
 ---
 BBC Persian has had a great deal of influence on Iranian culture, politics, and society since 1941. At first, BBC Persian was just a radio station. As part of a strategic political alliance between the UK and the Persian-speaking world, the Persian Service radio was established during the final years of the Second World War. For the past 66 years, many Iranians have viewed the Persian Service with suspicion, but at the same time have viewed it as one of their most trusted sources of news and information.
-
-![](https://static.wixstatic.com/media/12e485_c956b01193ff493297a25a6dc67afec9~mv2.webp)
 
 In the Iranian revolution of 1979, local and international media played a crucial role in its formation and dynamics. In those days, BBC Persian was the only source of information because Radio Iran was on strike. People can keep up with current events thanks to BBC Persian. Iranian broadcasting has been state-controlled since the revolution and reflects the official ideology.
 

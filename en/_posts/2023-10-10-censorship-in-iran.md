@@ -2,9 +2,10 @@
 layout: post
 title: "Censorship in Iran"
 date: 2023-10-10 04:00:00 +0000
-cover: "https://static.wixstatic.com/media/12e485_95920eb63da44633ad0c1eeee2a17093~mv2.jpg"
+kicker: "Essay"
+topic: "Essays"
+cover: "/assets/img/covers/censorship-in-iran.jpg"
 excerpt: "Throughout history, censorship has been a major obstacle to the freedom of expression of people. It was common in ancient societies such..."
-wix_slug: "censorship-in-iran"
 ---
 Throughout history, censorship has been a major obstacle to the freedom of expression of people. It was common in ancient societies such as China to use censorship as a means of regulating the morals and politics of their citizens. It can be traced back to Rome in 443 BC when the first censorship office was created. The idea of effective government in ancient Rome was shaped by the character of the people, as it was in ancient Greek communities. Consequently, censorship was respected. (Mette Newth, 2010)
 
@@ -21,8 +22,6 @@ There is no freedom of expression or media independence online or offline. State
 **Censorship in news agencies and newspapers**
 
 The government censors and warns public media about which topics they should cover. A large number of foreign-based websites, including news sites and major social media platforms, are filtered. Iran forbids satellite dishes and regularly jams Persian-language broadcasts from abroad. In some protests and political events, journalists including photographers and cameras were arrested.  Journalists working for Persian-language media outside of Iran have been summoned and threatened by Iranian authorities. After the protests in November, this type of intimidation heightened.
-
-![](https://static.wixstatic.com/media/12e485_95920eb63da44633ad0c1eeee2a17093~mv2.jpg)
 
 **Censorship in cinema**
 

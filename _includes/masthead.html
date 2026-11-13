@@ -1,0 +1,16 @@
+{%- assign t = site.data.ui[page.lang] -%}
+<header class="mast">
+  <div class="wrap">
+    <div class="top">
+      <a class="home-link" href="{{ '/' | relative_url }}">{% if page.lang == 'fa' %}صفحه‌ی اصلی{% else %}Home{% endif %}</a>
+      <div class="lang" aria-label="Language">
+        <a href="{{ '/en/' | relative_url }}" lang="en" class="{% if page.lang == 'en' %}on{% endif %}" data-set-lang="en">English</a>
+        <a href="{{ '/fa/' | relative_url }}" lang="fa" class="fa {% if page.lang == 'fa' %}on{% endif %}" data-set-lang="fa">فارسی</a>
+      </div>
+    </div>
+    <div class="brand">
+      <a href="{{ '/' | append: page.lang | append: '/' | relative_url }}" class="name">{% if page.lang == 'fa' %}زهرا <em>مهاجری</em>{% else %}Zahra <em>Mohajeri</em>{% endif %}</a>
+      <p class="tag">{{ t.tagline }}</p>
+    </div>
+  </div>
+</header>

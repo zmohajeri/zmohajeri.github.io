@@ -1,0 +1,9 @@
+<a class="card" href="{{ include.post.url | relative_url }}" data-topic="{{ include.post.topic }}">
+  <figure>{% include cover.html post=include.post %}</figure>
+  <div class="body">
+    <span class="kicker">{{ include.post.kicker }}</span>
+    <h3>{{ include.post.title }}</h3>
+    <p>{{ include.post.excerpt | strip_html | truncate: 140 }}</p>
+    {% include meta.html post=include.post lang=include.lang %}
+  </div>
+</a>

@@ -1,0 +1,4 @@
+{%- assign t = site.data.ui[include.lang] -%}
+{%- assign words = include.post.content | strip_html | number_of_words -%}
+{%- assign mins = words | divided_by: 220 -%}{%- if mins < 2 -%}{%- assign mins = 2 -%}{%- endif -%}
+<span class="meta">{% include date.html date=include.post.date lang=include.lang %} · {% include num.html n=mins lang=include.lang %} {{ t.min }}</span>

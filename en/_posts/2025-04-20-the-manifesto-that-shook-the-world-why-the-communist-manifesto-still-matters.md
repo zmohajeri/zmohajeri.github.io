@@ -2,9 +2,10 @@
 layout: post
 title: "The Manifesto That Shook the World: Why The Communist Manifesto Still Matters"
 date: 2025-04-20 23:41:29.022 +0000
-cover: "https://static.wixstatic.com/media/12e485_3fc13fa3a65d45c0b7a80a3d8d3b2f94~mv2.jpg"
+kicker: "Books"
+topic: "Film & Books"
+cover: "/assets/img/covers/the-manifesto-that-shook-the-world-why-the-communist-manifesto-still-matters.jpg"
 excerpt: "The Communist Manifesto, written by Karl Marx and Friedrich Engels in 1848, is one of the most important political texts in history as it was created for the Communist League as a guide for revolution. The authors believed that workers (the proletariat) were being treated unfairly by business owners (the bourgeoisie). Their goal was to inspire workers to rise and fight for a better and more equal society. This essay will explore the main ideas in the document, the reasons it was written, how..."
-wix_slug: "the-manifesto-that-shook-the-world-why-the-communist-manifesto-still-matters"
 ---
 The Communist Manifesto, written by Karl Marx and Friedrich Engels in 1848, is one of the most important political texts in history as it was created for the Communist League as a guide for revolution. The authors believed that workers (the proletariat) were being treated unfairly by business owners (the bourgeoisie). Their goal was to inspire workers to rise and fight for a better and more equal society. This essay will explore the main ideas in the document, the reasons it was written, how it influenced the world, some scholarly views, and a reflection on its relevance in today’s world. Even though The Communist Manifesto was written more than 175 years ago, many of its ideas are still important today.
 

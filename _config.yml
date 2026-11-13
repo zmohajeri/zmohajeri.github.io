@@ -1,4 +1,5 @@
 title: Zahra Mohajeri
+title_fa: زهرا مهاجری
 description: Essays, reviews and stories by Zahra Mohajeri.
 url: "https://zmohajeri.github.io"
 baseurl: ""
@@ -11,6 +12,7 @@ plugins:
 exclude:
   - README.md
   - Gemfile
+  - Gemfile.lock
 defaults:
   - scope: { path: "en" }
     values: { lang: en }

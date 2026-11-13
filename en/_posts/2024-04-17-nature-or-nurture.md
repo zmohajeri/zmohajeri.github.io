@@ -2,9 +2,10 @@
 layout: post
 title: "Nature or Nurture?!"
 date: 2024-04-17 01:15:39.666 +0000
-cover: "https://static.wixstatic.com/media/12e485_408959f6ba184d0cb01ea399534987db~mv2.png"
+kicker: "Film"
+topic: "Film & Books"
+cover: "/assets/img/covers/nature-or-nurture.jpg"
 excerpt: "The human experience is a complex tapestry woven from the threads of our genes and our environment. The documentary \"Three Identical Strangers\" delves into this very question, exploring the lives of triplets separated at birth and raised in vastly different circumstances. This is not just a heartwarming tale of reunion; it's a thought-provoking exploration of nature versus nurture, ethics in research, and the enduring power of human connection. Themes and Analysis The documentary centres on..."
-wix_slug: "nature-or-nurture"
 ---
 The human experience is a complex tapestry woven from the threads of our genes and our environment. The documentary "Three Identical Strangers" delves into this very question, exploring the lives of triplets separated at birth and raised in vastly different circumstances. This is not just a heartwarming tale of reunion; it's a thought-provoking exploration of nature versus nurture, ethics in research, and the enduring power of human connection.
 
@@ -13,8 +14,6 @@ The human experience is a complex tapestry woven from the threads of our genes a
 The documentary centres on two key themes. Firstly, it examines the age-old debate of nature versus nurture. Despite their identical genetic makeup, the triplets develop distinct personalities and experiences due to their unique upbringings. This provides compelling evidence that the environment plays a significant role in shaping who we become.
 
 Secondly, the film sheds light on a disturbing ethical breach. The triplets' separation was part of a secret psychological study, raising questions about informed consent and the exploitation of human subjects for research.
-
-![](https://static.wixstatic.com/media/12e485_408959f6ba184d0cb01ea399534987db~mv2.png)
 
 **Narrative Techniques**
 

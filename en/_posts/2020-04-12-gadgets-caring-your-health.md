@@ -2,9 +2,10 @@
 layout: post
 title: "Gadgets caring your health"
 date: 2020-04-12 04:00:00 +0000
-cover: "https://static.wixstatic.com/media/12e485_13dd00e750be4b9c9127e33b42fbbe33~mv2.webp"
+kicker: "Technology"
+topic: "Essays"
+cover: "/assets/img/covers/gadgets-caring-your-health.jpg"
 excerpt: "Today’s life in a modernized society with a large volume of business and speedy work caused less attention to human health. However, in..."
-wix_slug: "gadgets-caring-your-health"
 ---
 Today’s life in a modernized society with a large volume of business and speedy work caused less attention to human health. However, in this modern world, some new technologies are developed those alert people that having a healthy body is the most important thing. Using such technologies, our lifeless friends, would improve our lifestyle and draw more attention to ourselves.
 
@@ -15,8 +16,6 @@ Air pollution is a problem in many large and industrial cities around the world.
 **Smart fork**
 
 Physicians have always alarmed people about their feeding styles and their effects on their digestion. Smart fork, as it could be guessed, considers user’s feeding styles. An acceleration meter is attached to this fork which measures the hand speed during the time of eating food. If the user has a higher speed, the fork will vibrate and alert the user to modify his/her eating method by turning on a red light on it. This smart fork shows all information and reports of a user’s eating styles through a specific application on Android and non-Android smartphones.
-
-![](https://static.wixstatic.com/media/12e485_13dd00e750be4b9c9127e33b42fbbe33~mv2.webp)
 
 **Loyal accompany to quit smoking**
 

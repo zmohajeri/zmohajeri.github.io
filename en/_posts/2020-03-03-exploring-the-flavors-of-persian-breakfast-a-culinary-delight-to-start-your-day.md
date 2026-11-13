@@ -2,13 +2,12 @@
 layout: post
 title: "Exploring the Flavors of Persian Breakfast: A Culinary Delight to Start Your Day"
 date: 2020-03-03 01:23:02.576 +0000
-cover: "https://static.wixstatic.com/media/12e485_16750ac581d0448a855f5636830eebd2~mv2.webp"
+kicker: "Food"
+topic: "Culture"
+cover: "/assets/img/covers/exploring-the-flavors-of-persian-breakfast-a-culinary-delight-to-start-your-day.jpg"
 excerpt: "Breakfast is a very important meal — it can either make or break your day. Since one of the attractions of the trip is to taste the food..."
-wix_slug: "exploring-the-flavors-of-persian-breakfast-a-culinary-delight-to-start-your-day"
 ---
 Breakfast is a very important meal — it can either make or break your day. Since one of the attractions of the trip is to taste the food of the region we have traveled to, knowing the breakfast of different regions of our country is not without grace.‘Qisawa’ and ‘Gozalmeh’, delicious nutritiousIf you have traveled to the northwest, you must have heard the name ‘Qisawa’. 
-
-![](https://static.wixstatic.com/media/12e485_16750ac581d0448a855f5636830eebd2~mv2.webp)
 
 The Azeri languages ​​of our country prepare this date omelet as a nutritious and delicious breakfast. This food is a combination of dates, eggs, and walnuts, which is used especially in autumn and winter. Qisawa is prepared so quickly and is usually served with tea or any other hot beverage. To make this dish, the people of the northwest of the country first peel the dates and cook them with a little water, and when the dates are slightly crushed, they add eggs and then butter.This delicious food is an energy bomb! In this region, northwest, some people also prepare a meal called Gozalmeh for breakfast. This food, which means “do not wait” in Persian, is easy and fast to cook. In this breakfast, eggs are fried and yogurt and garlic are added to it. After five minutes, the food is completely ready to be eaten with traditional Azerbaijani bread such as Somun bread or Ardeh bread. In East Azerbaijan, especially in the city of Tabriz, Qighnaq is made for breakfast, which a kind of dough (omelet) is made with flour, cardamom, walnuts, and eggs.From Kolas to KalanehBread has a significant value in the Iranian food table, especially at the breakfast table. From north to south, east to west of Iran, many traditional and local bread are consumed for breakfast. One of the delicious bread of the western region is called Kalaneh bread. This bread, which is mostly baked in Kurdistan, has onions in addition to oil and flour, which are the basis of all bread. In the north of Iran, beautiful Gilan, another bread is baked that is thousands of years old. This bread is called colas and is made from flour, leaven, salt and sometimes using turmeric and sugar in a home oven. One of the features of this bread is its long durability (shelf life). Other traditional and famous Iranian breads include Pishmeh bread, which is made with eggs, yogurt, and sugar and has a similar appearance to okra (a kind of Iranian confectionery (made of flour, oil, and sugar) resembling okra.)
 

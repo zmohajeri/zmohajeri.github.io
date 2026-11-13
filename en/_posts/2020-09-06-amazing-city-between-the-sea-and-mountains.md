@@ -2,13 +2,12 @@
 layout: post
 title: "Amazing city between the sea and mountains"
 date: 2020-09-06 04:00:00 +0000
-cover: "https://static.wixstatic.com/media/12e485_eb3f7a38ec4c436b8e9fb6e3b2cb0426~mv2.webp"
+kicker: "Travel"
+topic: "Travel"
+cover: "/assets/img/covers/amazing-city-between-the-sea-and-mountains.jpg"
 excerpt: "Researchers have reported the historical background of urban life in Ardabil eight thousand years ago. This background makes this city..."
-wix_slug: "amazing-city-between-the-sea-and-mountains"
 ---
 Researchers have reported the historical background of urban life in Ardabil eight thousand years ago. This background makes this city and the surrounding areas one of the oldest residential places in Iran. A city that has always been prosperous due to the favorable climate and is located on the Silk Road. Before and after Islam, this city was the center of Azerbaijan and during the Abbasid period, it was the center of the Babak Khorramdin uprising, which, unfortunately, during the Mongol invasion in the seventh century, many ancient civilization relics were destroyed in Ardabil. This beautiful region of Iran, which reaches the Caspian Sea on one side and Sabalan mountain on the other, is full of surprises. In the following, we will mention some of the tourist areas of this beautiful and important city.
-
-![](https://static.wixstatic.com/media/12e485_eb3f7a38ec4c436b8e9fb6e3b2cb0426~mv2.webp)
 
 **Friday Mosque**
 
