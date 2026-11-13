@@ -9,7 +9,7 @@
       </div>
     </div>
     <div class="brand">
-      <a href="{{ '/' | append: page.lang | append: '/' | relative_url }}" class="name">{% if page.lang == 'fa' %}زر<em>نوشت</em>{% else %}Golden <em>Glyph</em>{% endif %}</a>
+      <a href="{{ '/' | append: page.lang | append: '/' | relative_url }}" class="name">{% if page.lang == 'fa' %}زر<em>نوشت</em>{% else %}Golden <em>Glyph</em>{% include glyph.html %}{% endif %}</a>
       <p class="tag">{{ t.tagline }}</p>
     </div>
   </div>

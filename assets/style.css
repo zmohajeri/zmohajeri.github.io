@@ -37,6 +37,9 @@ img { max-width: 100%; }
 .name { font-family: var(--display); font-size: clamp(2.3rem, 6vw, 4rem); line-height: 1.05; letter-spacing: -0.01em; }
 .lang-fa .name, [lang="fa"] .name { font-family: var(--fa); font-weight: 700; letter-spacing: 0; }
 .name em { color: var(--glaze); font-style: italic; }
+.glyph { display: inline-block; width: .62em; height: .62em; margin-inline-start: .22em; vertical-align: .08em; filter: drop-shadow(0 1px 1px rgba(120, 80, 10, .25)); transition: transform .6s ease; }
+.name:hover .glyph { transform: rotate(45deg); }
+@media (prefers-reduced-motion: reduce) { .glyph { transition: none; } }
 [lang="fa"] .name em, .lang-fa .name em { font-style: normal; }
 .tag { color: var(--muted); max-width: 34ch; margin: 0; font-size: 15px; }
 

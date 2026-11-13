@@ -11,7 +11,7 @@ title: Golden Glyph · زرنوشت
     <div class="half-in">
       <header class="intro">
         <span class="kicker">{% if lang == 'fa' %}فارسی{% else %}English{% endif %}</span>
-        <a class="name" href="{{ '/' | append: lang | append: '/' | relative_url }}" data-set-lang="{{ lang }}">{% if lang == 'fa' %}زر<em>نوشت</em>{% else %}Golden <em>Glyph</em>{% endif %}</a>
+        <a class="name" href="{{ '/' | append: lang | append: '/' | relative_url }}" data-set-lang="{{ lang }}">{% if lang == 'fa' %}زر<em>نوشت</em>{% else %}Golden <em>Glyph</em>{% include glyph.html %}{% endif %}</a>
         <p class="tag">{{ t.home_tagline }}</p>
         <p class="byline">{{ t.byline }}</p>
       </header>
