@@ -18,7 +18,12 @@ collections:
   rooznevesht:
     output: true
     permalink: /fa/rooznevesht/:year/:month/:day/:title/
+  ketab:
+    output: true
+    permalink: /fa/chaharshanbe-ha-ba-ketab/:year/:month/:day/:title/
 defaults:
+  - scope: { path: "", type: "ketab" }
+    values: { lang: fa, layout: book }
   - scope: { path: "", type: "rooznevesht" }
     values: { lang: fa, layout: entry }
   - scope: { path: "en" }

@@ -45,3 +45,21 @@ Entry text in Markdown.
 ```
 
 They appear on `/fa/rooznevesht/`, newest first and grouped by year, and each entry also gets its own page.
+
+## چهارشنبه‌ها با کتاب (book introductions)
+
+Book posts live in `_ketab/`, named `YYYY-MM-DD-short-name.md`:
+
+```
+---
+title: "Book title; subtitle"
+book: "Book title"
+author: "Author or subtitle line"
+date: 2017-08-09 10:00:00 -0400
+cover: "/assets/img/covers/short-name.jpg"
+---
+
+Quotes from the book as > blockquotes, then the introduction.
+```
+
+They appear on `/fa/chaharshanbe-ha-ba-ketab/` as a shelf of covers, newest first.

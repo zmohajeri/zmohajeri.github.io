@@ -1,0 +1,28 @@
+---
+layout: default
+---
+{%- assign t = site.data.ui.fa -%}
+{%- assign items = site.ketab | sort: "date" | reverse -%}
+{% include masthead.html %}
+<main class="wrap">
+  <header class="journal-head books-head">
+    <h1>{{ t.books }}</h1>
+    <p>{{ t.books_tag }}</p>
+  </header>
+  {%- if items.size == 0 -%}
+  <p class="empty journal-empty">{{ t.books_empty }}</p>
+  {%- else -%}
+  <section class="shelf">
+    {%- for b in items -%}
+    <a class="book-card" href="{{ b.url | relative_url }}">
+      <figure>{% include cover.html post=b %}</figure>
+      <div class="body">
+        <h3>{{ b.book | default: b.title }}</h3>
+        {%- if b.author -%}<span class="book-author">{{ b.author }}</span>{%- endif -%}
+        <span class="meta">{% include date.html date=b.date lang="fa" %}</span>
+      </div>
+    </a>
+    {%- endfor -%}
+  </section>
+  {%- endif -%}
+</main>

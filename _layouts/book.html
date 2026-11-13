@@ -1,0 +1,18 @@
+---
+layout: default
+---
+{%- assign t = site.data.ui.fa -%}
+{% include masthead.html %}
+<main class="wrap">
+  <article class="article book-article">
+    <header>
+      <span class="kicker"><a href="{{ '/fa/chaharshanbe-ha-ba-ketab/' | relative_url }}">{{ t.books }}</a></span>
+      <h1>{{ page.book | default: page.title }}</h1>
+      {%- if page.author -%}<span class="book-author">{{ page.author }}</span>{%- endif -%}
+      <span class="meta">{% include date.html date=page.date lang="fa" %}</span>
+    </header>
+    {%- if page.cover and page.cover != "" -%}<figure class="book-cover">{% include cover.html post=page %}</figure>{%- endif -%}
+    <div class="prose">{{ content }}</div>
+    <p class="source"><a href="{{ '/fa/chaharshanbe-ha-ba-ketab/' | relative_url }}">→ {{ t.books_all }}</a></p>
+  </article>
+</main>
