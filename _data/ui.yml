@@ -1,6 +1,8 @@
 en:
   site_name: Golden Glyph
   tagline: Writing on Iran's places and crafts, film, books, media and ideas.
+  home_tagline: Writing Between Languages and Homes
+  byline: By Zahra Mohajeri
   all: All
   also_recent: Also recent
   more: More writing
@@ -14,6 +16,8 @@ en:
 fa:
   site_name: زرنوشت
   tagline: داستان، یادداشت و نقد به زبان فارسی.
+  home_tagline: داستان، یادداشت و نقد به زبان فارسی
+  byline: به قلم زهرا مهاجری
   all: همه
   also_recent: تازه‌ها
   more: نوشته‌های دیگر
