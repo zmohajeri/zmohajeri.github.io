@@ -13,7 +13,7 @@ title: Golden Glyph · زرنوشت
         <span class="kicker">{% if lang == 'fa' %}فارسی{% else %}English{% endif %}</span>
         <a class="name" href="{{ '/' | append: lang | append: '/' | relative_url }}" data-set-lang="{{ lang }}">{% if lang == 'fa' %}زر<em>نوشت</em>{% else %}Golden <em>Glyph</em>{% include glyph.html %}{% endif %}</a>
         <p class="tag">{{ t.home_tagline }}</p>
-        <p class="byline">{{ t.byline }}</p>
+        <a class="byline" href="{{ '/' | append: lang | append: '/about/' | relative_url }}">{{ t.byline }}</a>
       </header>
       {%- assign first = posts.first -%}
       {%- if first -%}

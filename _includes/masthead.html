@@ -2,7 +2,7 @@
 <header class="mast">
   <div class="wrap">
     <div class="top">
-      <a class="home-link" href="{{ '/' | relative_url }}">{% if page.lang == 'fa' %}صفحه‌ی اصلی{% else %}Home{% endif %}</a>
+      <nav class="toplinks"><a href="{{ '/' | relative_url }}">{% if page.lang == 'fa' %}صفحه‌ی اصلی{% else %}Home{% endif %}</a><a href="{{ '/' | append: page.lang | append: '/about/' | relative_url }}"{% if page.layout == 'about' %} class="on"{% endif %}>{{ t.about }}</a></nav>
       <div class="lang" aria-label="Language">
         <a href="{{ '/en/' | relative_url }}" lang="en" class="{% if page.lang == 'en' %}on{% endif %}" data-set-lang="en">English</a>
         <a href="{{ '/fa/' | relative_url }}" lang="fa" class="fa {% if page.lang == 'fa' %}on{% endif %}" data-set-lang="fa">فارسی</a>

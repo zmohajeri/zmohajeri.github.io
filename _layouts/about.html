@@ -1,0 +1,15 @@
+---
+layout: default
+---
+{%- assign t = site.data.ui[page.lang] -%}
+{% include masthead.html %}
+<main class="wrap">
+  <article class="about">
+    <figure class="portrait"><img src="{{ '/assets/img/zahra-mohajeri.jpg' | relative_url }}" alt="{% if page.lang == 'fa' %}زهرا مهاجری{% else %}Zahra Mohajeri{% endif %}" width="800" height="1000"></figure>
+    <div class="about-text">
+      <span class="kicker">{{ t.about }}</span>
+      <h1>{% if page.lang == 'fa' %}زهرا مهاجری{% else %}Zahra Mohajeri{% endif %}</h1>
+      <div class="prose">{{ content }}</div>
+    </div>
+  </article>
+</main>
