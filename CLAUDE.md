@@ -63,6 +63,7 @@ Story excerpt (`_boresh/…`): `title`, `heading` (she asked Claude to choose on
 - Section subheadings marked with `*` become `##` headings.
 - A quoted speaker's long first-person account can go in a `>` blockquote; verse lines go in `<p class="poem">line<br>line</p>` (centered).
 - If a post has no title, create a short one from her own text and tell her.
+- Screenplays (she asked to have these polished and formatted): English magazine, kicker `Short screenplay`, topic `Stories`. Body is a `<div class="screenplay">` with `<p>` classes `sp-title`, `sp-by`, `sp-scene` (EXT./INT. heading), `sp-action`, `sp-char`, `sp-paren`, `sp-dial`, `sp-trans` (FADE IN/OUT); see `en/_posts/2022-11-09-invisible.md`. Courier Prime font.
 
 ## Dates
 
