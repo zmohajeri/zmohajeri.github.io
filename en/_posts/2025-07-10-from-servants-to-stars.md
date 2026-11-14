@@ -5,6 +5,7 @@ date: 2025-07-10 10:00:00 -0400
 kicker: "Essay"
 topic: "Essays"
 cover: "/assets/img/covers/from-servants-to-stars.jpg"
+cover_fit: contain
 image: "/assets/img/covers/from-servants-to-stars.jpg"
 excerpt: "Before the 1600s, plays belonged to kings and queens. Then servants, merchants and middle-class women began to take the stage. Molière's Tartuffe and Congreve's The Way of the World show how theatre started to reflect real society."
 ---
