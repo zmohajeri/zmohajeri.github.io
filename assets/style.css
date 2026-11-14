@@ -230,3 +230,8 @@ img.contain { object-fit: contain !important; background: color-mix(in srgb, var
 .screenplay .sp-trans { text-align: end; text-transform: uppercase; margin: 1em 0; }
 .screenplay .sp-in { text-align: start; }
 @media (max-width: 560px) { .screenplay { font-size: .92rem; } .screenplay .sp-char { padding-inline-start: 28%; } .screenplay .sp-paren { padding-inline-start: 18%; padding-inline-end: 8%; } .screenplay .sp-dial { padding-inline-start: 10%; padding-inline-end: 4%; } }
+
+/* The Librarian's Notebook */
+.notebook-head { max-width: none; }
+.lang-en .journal-head h1 { font-family: var(--display); font-weight: 600; }
+.notebook-grid { padding-top: 24px; }

@@ -1,9 +1,6 @@
 ---
-layout: post
 title: "What a City's Libraries Reveal About Its Neighborhoods"
 date: 2026-11-13 18:30:00 -0500
-kicker: "Essay"
-topic: "Essays"
 cover: ""
 excerpt: "A public library is more than a place to borrow books. Studying eleven branches across one large city, I found that each library mirrors its neighborhood, and that the busiest ones are not in the richest areas."
 ---

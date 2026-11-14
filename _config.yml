@@ -28,6 +28,9 @@ collections:
   rooznevesht:
     output: true
     permalink: /fa/rooznevesht/:year/:month/:day/:title/
+  notebook:
+    output: true
+    permalink: /en/librarians-notebook/:year/:month/:day/:title/
   ketab:
     output: true
     permalink: /fa/chaharshanbe-ha-ba-ketab/:year/:month/:day/:title/
@@ -41,6 +44,8 @@ defaults:
     values: { image: /assets/img/zahra-mohajeri.jpg }
   - scope: { path: "", type: "boresh" }
     values: { lang: fa, layout: story }
+  - scope: { path: "", type: "notebook" }
+    values: { lang: en, layout: post, kicker: "The Librarian's Notebook", topic: "The Librarian's Notebook" }
   - scope: { path: "", type: "ketab" }
     values: { lang: fa, layout: book }
   - scope: { path: "", type: "rooznevesht" }

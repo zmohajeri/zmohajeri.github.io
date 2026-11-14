@@ -7,6 +7,7 @@ title: Golden Glyph · زرنوشت
   {%- for lang in langs -%}
   {%- assign t = site.data.ui[lang] -%}
   {%- assign posts = site.categories[lang] -%}
+  {%- if lang == "en" -%}{%- assign posts = posts | concat: site.notebook | sort: "date" | reverse -%}{%- endif -%}
   {%- if lang == "fa" -%}{%- assign posts = posts | concat: site.rooznevesht | concat: site.ketab | concat: site.boresh | sort: "date" | reverse -%}{%- endif -%}
   <section class="half half-{{ lang }}" lang="{{ lang }}" dir="{% if lang == 'fa' %}rtl{% else %}ltr{% endif %}">
     <div class="half-in">

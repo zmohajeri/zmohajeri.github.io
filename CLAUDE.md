@@ -15,12 +15,14 @@ Content was migrated from her old Wix site (zmohajeri.wixsite.com/zmohajeri) and
 | Section | Where files go | URL | Use for |
 |---|---|---|---|
 | English magazine (Golden Glyph) | `en/_posts/` | `/en/` | English essays, reviews, travel |
+| The Librarian's Notebook | `_notebook/` | `/en/librarians-notebook/` | English writing about libraries, reading, librarianship (her field). Front matter: title, date, cover, excerpt (kicker/topic/layout come from defaults) |
 | Persian magazine (زرنوشت) | `fa/_posts/` | `/fa/` | Persian reports (گزارش), film reviews (معرفی فیلم), notes (یادداشت), interviews (گفت‌وگو) |
 | روزنوشت (journal) | `_rooznevesht/` | `/fa/rooznevesht/` | Posts tagged #روز_نوشت |
 | چهارشنبه‌ها با کتاب (book intros) | `_ketab/` | `/fa/chaharshanbe-ha-ba-ketab/` | Posts tagged #چهارشنبه_ها_با_کتاب, or any book introduction |
 | برشی از داستان (story excerpts) | `_boresh/` | `/fa/boreshi-az-dastan/` | Posts tagged #برشی_از_داستان (excerpts of her own fiction) |
 | About | `en/about.md`, `fa/about.md` | `/en/about/`, `/fa/about/` | Bio |
 
+- `/en/` and the English half of the home page also include `_notebook` entries. More English sections may be added later (she has no ideas yet).
 - `/fa/` and the Persian half of the home page merge `fa/_posts` with all three collections (sorted by date), each with its own filter chip. Film reviews stay in `fa/_posts` with kicker/topic `معرفی فیلم` (decided: no separate section).
 - Home page (`index.html`) is split: English half / Persian half. Site names: **Golden Glyph** (English, with a gold quill SVG `_includes/glyph.html`) and **زرنوشت** (Persian). Her name appears in the bylines, footer and About pages.
 - Interface strings for both languages: `_data/ui.yml`. Styles: `assets/style.css`. Layouts: `_layouts/`, includes: `_includes/`.

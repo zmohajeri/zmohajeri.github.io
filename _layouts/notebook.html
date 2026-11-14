@@ -1,0 +1,19 @@
+---
+layout: default
+---
+{%- assign t = site.data.ui.en -%}
+{%- assign items = site.notebook | sort: "date" | reverse -%}
+{% include masthead.html %}
+<main class="wrap">
+  <header class="journal-head notebook-head">
+    <h1>{{ t.notebook }}</h1>
+    <p>{{ t.notebook_tag }}</p>
+  </header>
+  {%- if items.size == 0 -%}
+  <p class="empty journal-empty">{{ t.notebook_empty }}</p>
+  {%- else -%}
+  <section class="grid notebook-grid">
+    {%- for p in items -%}{% include card.html post=p lang="en" %}{%- endfor -%}
+  </section>
+  {%- endif -%}
+</main>
