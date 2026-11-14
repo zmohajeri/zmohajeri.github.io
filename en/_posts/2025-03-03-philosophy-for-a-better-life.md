@@ -6,6 +6,7 @@ kicker: "Philosophy"
 topic: "Essays"
 cover: "/assets/img/covers/philosophy-for-a-better-life.jpg"
 excerpt: "If we were to summarize the philosophy of Stoicism in one phrase, it would mean finding peace in life despite all difficulties. Stoics believe that we should live with reason and logic, not with [1] emotions. We must learn how to control our thoughts and emotions and behave in a way that aligns with our values. Stoicism emphasizes four main virtues: wisdom, courage, justice, and temperance. This philosophy teaches us how to face the hardships and challenges of life while maintaining our..."
+image: "/assets/img/covers/philosophy-for-a-better-life.jpg"
 ---
 If we were to summarize the philosophy of Stoicism in one phrase, it would mean finding peace in life despite all difficulties. Stoics believe that we should live with reason and logic, not with [[1]](#_ftn1)emotions. We must learn how to control our thoughts and emotions and behave in a way that aligns with our values. Stoicism emphasizes four main virtues: wisdom, courage, justice, and temperance.
 

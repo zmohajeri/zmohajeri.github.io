@@ -6,6 +6,7 @@ kicker: "Profile"
 topic: "Stories"
 cover: "/assets/img/covers/the-man-who-inherited-kindness.jpg"
 excerpt: "In our unkind world, some people are trying to make it beautiful. “Johnny Barnes” was one of those who spread love and kindness to..."
+image: "/assets/img/covers/the-man-who-inherited-kindness.jpg"
 ---
 In our unkind world, some people are trying to make it beautiful. “Johnny Barnes” was one of those who spread love and kindness to everyone making the world a better place. 
 

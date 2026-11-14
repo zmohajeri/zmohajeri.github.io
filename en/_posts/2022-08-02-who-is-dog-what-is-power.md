@@ -6,6 +6,7 @@ kicker: "Film"
 topic: "Film & Books"
 cover: "/assets/img/covers/who-is-dog-what-is-power.jpg"
 excerpt: "The “Power of the Dog” movie review After Jane Campion’s first film, “the piano”, which won the Palme d’Or, her fans were eagerly..."
+image: "/assets/img/covers/who-is-dog-what-is-power.jpg"
 ---
 **The “Power of the Dog” movie review**
 

@@ -6,6 +6,7 @@ kicker: "Travel"
 topic: "Travel"
 cover: "/assets/img/covers/uncovering-the-enigma-the-mysterious-city-in-the-depths-of-the-earth.jpg"
 excerpt: "Beautiful Iran with several thousand-year histories is the land of many endless wonders! After years, explorers still discover unknowns..."
+image: "/assets/img/covers/uncovering-the-enigma-the-mysterious-city-in-the-depths-of-the-earth.jpg"
 ---
 Beautiful Iran with several thousand-year histories is the land of many endless wonders! After years, explorers still discover unknowns across this country and amaze the world.
 

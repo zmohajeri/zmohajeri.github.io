@@ -1,4 +1,5 @@
 ---
+description: "About Zahra Mohajeri (زهرا مهاجری): Iranian journalist and short story writer, author of the collection The Door Opens Outward."
 layout: about
 title: About
 permalink: /en/about/

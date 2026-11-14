@@ -6,6 +6,7 @@ kicker: "Film"
 topic: "Film & Books"
 cover: "/assets/img/covers/nature-or-nurture.jpg"
 excerpt: "The human experience is a complex tapestry woven from the threads of our genes and our environment. The documentary \"Three Identical Strangers\" delves into this very question, exploring the lives of triplets separated at birth and raised in vastly different circumstances. This is not just a heartwarming tale of reunion; it's a thought-provoking exploration of nature versus nurture, ethics in research, and the enduring power of human connection. Themes and Analysis The documentary centres on..."
+image: "/assets/img/covers/nature-or-nurture.jpg"
 ---
 The human experience is a complex tapestry woven from the threads of our genes and our environment. The documentary "Three Identical Strangers" delves into this very question, exploring the lives of triplets separated at birth and raised in vastly different circumstances. This is not just a heartwarming tale of reunion; it's a thought-provoking exploration of nature versus nurture, ethics in research, and the enduring power of human connection.
 

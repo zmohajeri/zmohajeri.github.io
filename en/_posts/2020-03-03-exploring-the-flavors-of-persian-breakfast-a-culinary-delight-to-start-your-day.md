@@ -6,6 +6,7 @@ kicker: "Food"
 topic: "Culture"
 cover: "/assets/img/covers/exploring-the-flavors-of-persian-breakfast-a-culinary-delight-to-start-your-day.jpg"
 excerpt: "Breakfast is a very important meal — it can either make or break your day. Since one of the attractions of the trip is to taste the food..."
+image: "/assets/img/covers/exploring-the-flavors-of-persian-breakfast-a-culinary-delight-to-start-your-day.jpg"
 ---
 Breakfast is a very important meal — it can either make or break your day. Since one of the attractions of the trip is to taste the food of the region we have traveled to, knowing the breakfast of different regions of our country is not without grace.‘Qisawa’ and ‘Gozalmeh’, delicious nutritiousIf you have traveled to the northwest, you must have heard the name ‘Qisawa’. 
 

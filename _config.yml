@@ -1,7 +1,15 @@
-title: Golden Glyph
+title: "Zahra Mohajeri · Golden Glyph"
+name_en: Zahra Mohajeri
+name_fa: زهرا مهاجری
 title_fa: زرنوشت
 author: Zahra Mohajeri
-description: Essays, reviews and stories by Zahra Mohajeri.
+description: "Zahra Mohajeri (زهرا مهاجری) — Iranian writer and journalist. Short stories, essays, reports and reviews in English and Persian."
+logo: /assets/img/zahra-mohajeri.jpg
+social:
+  name: Zahra Mohajeri
+  links:
+    - https://t.me/zar_neveshtt
+    - https://zmohajeri.wixsite.com/zmohajeri
 url: "https://zmohajeri.github.io"
 baseurl: ""
 permalink: /:categories/:year/:month/:title/
@@ -10,6 +18,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 exclude:
   - README.md
   - Gemfile
@@ -25,6 +34,8 @@ collections:
     output: true
     permalink: /fa/boreshi-az-dastan/:year/:month/:day/:title/
 defaults:
+  - scope: { path: "" }
+    values: { image: /assets/img/zahra-mohajeri.jpg }
   - scope: { path: "", type: "boresh" }
     values: { lang: fa, layout: story }
   - scope: { path: "", type: "ketab" }

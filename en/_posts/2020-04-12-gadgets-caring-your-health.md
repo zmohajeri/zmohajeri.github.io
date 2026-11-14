@@ -6,6 +6,7 @@ kicker: "Technology"
 topic: "Essays"
 cover: "/assets/img/covers/gadgets-caring-your-health.jpg"
 excerpt: "Today’s life in a modernized society with a large volume of business and speedy work caused less attention to human health. However, in..."
+image: "/assets/img/covers/gadgets-caring-your-health.jpg"
 ---
 Today’s life in a modernized society with a large volume of business and speedy work caused less attention to human health. However, in this modern world, some new technologies are developed those alert people that having a healthy body is the most important thing. Using such technologies, our lifeless friends, would improve our lifestyle and draw more attention to ourselves.
 

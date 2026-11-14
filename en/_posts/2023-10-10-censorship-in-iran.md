@@ -6,6 +6,7 @@ kicker: "Essay"
 topic: "Essays"
 cover: "/assets/img/covers/censorship-in-iran.jpg"
 excerpt: "Throughout history, censorship has been a major obstacle to the freedom of expression of people. It was common in ancient societies such..."
+image: "/assets/img/covers/censorship-in-iran.jpg"
 ---
 Throughout history, censorship has been a major obstacle to the freedom of expression of people. It was common in ancient societies such as China to use censorship as a means of regulating the morals and politics of their citizens. It can be traced back to Rome in 443 BC when the first censorship office was created. The idea of effective government in ancient Rome was shaped by the character of the people, as it was in ancient Greek communities. Consequently, censorship was respected. (Mette Newth, 2010)
 

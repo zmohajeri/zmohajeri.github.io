@@ -6,6 +6,7 @@ kicker: "Travel"
 topic: "Travel"
 cover: "https://static.wixstatic.com/media/12e485_b17fa1f58f9e443bb6cf378e5b7b9cfc~mv2.gif"
 excerpt: "In each region of four-season Iran, there is a kind of natural wonder that is different from other regions. Tourists can reach the most..."
+image: "https://static.wixstatic.com/media/12e485_b17fa1f58f9e443bb6cf378e5b7b9cfc~mv2.gif"
 ---
 In each region of four-season Iran, there is a kind of natural wonder that is different from other regions. Tourists can reach the most deserted areas from the verdant lands in a short distance. In the meantime, it is worth to know the hottest spot on the earth better, which its temperature reaches more than 70 °C on some days of the year.
 

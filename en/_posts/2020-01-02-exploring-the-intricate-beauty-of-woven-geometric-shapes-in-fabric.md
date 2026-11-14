@@ -6,6 +6,7 @@ kicker: "Craft"
 topic: "Culture"
 cover: "/assets/img/covers/exploring-the-intricate-beauty-of-woven-geometric-shapes-in-fabric.jpg"
 excerpt: "Nobody knows where the warp and weft first appeared and the history of weaving.; But for years, this has artistically perpetuated many..."
+image: "/assets/img/covers/exploring-the-intricate-beauty-of-woven-geometric-shapes-in-fabric.jpg"
 ---
 Nobody knows where the warp and weft first appeared and the history of weaving.; But for years, this has artistically perpetuated many symbols. However, according to history, “ weaving” is very old in Mazandaran and dates back to five thousand years BC. There are some signs in the “Kamar-Band” cave, which is located in Behshahr, that indicate spinning wool into yarn.
 

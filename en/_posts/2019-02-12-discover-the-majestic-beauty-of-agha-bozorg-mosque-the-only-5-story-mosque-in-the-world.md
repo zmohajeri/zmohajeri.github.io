@@ -6,6 +6,7 @@ kicker: "Architecture"
 topic: "Culture"
 cover: "/assets/img/covers/discover-the-majestic-beauty-of-agha-bozorg-mosque-the-only-5-story-mosque-in-the-world.jpg"
 excerpt: "There are many mosques with great historical importance in our country. One of them is Agha Bozorg Mosque. This mosque, which has many..."
+image: "/assets/img/covers/discover-the-majestic-beauty-of-agha-bozorg-mosque-the-only-5-story-mosque-in-the-world.jpg"
 ---
 There are many mosques with great historical importance in our country. One of them is Agha Bozorg Mosque. This mosque, which has many architectural features and is a combination of Iranian and Islamic culture and art, has features that are worth knowing about them.
 
