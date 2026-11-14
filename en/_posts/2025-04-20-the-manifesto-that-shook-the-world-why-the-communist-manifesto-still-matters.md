@@ -3,7 +3,7 @@ layout: post
 title: "The Manifesto That Shook the World: Why The Communist Manifesto Still Matters"
 date: 2025-04-20 23:41:29.022 +0000
 kicker: "Books"
-topic: "The Librarian's Notebook"
+topic: "Essays"
 cover: "/assets/img/covers/the-manifesto-that-shook-the-world-why-the-communist-manifesto-still-matters.jpg"
 excerpt: "The Communist Manifesto, written by Karl Marx and Friedrich Engels in 1848, is one of the most important political texts in history as it was created for the Communist League as a guide for revolution. The authors believed that workers (the proletariat) were being treated unfairly by business owners (the bourgeoisie). Their goal was to inspire workers to rise and fight for a better and more equal society. This essay will explore the main ideas in the document, the reasons it was written, how..."
 image: "/assets/img/covers/the-manifesto-that-shook-the-world-why-the-communist-manifesto-still-matters.jpg"
