@@ -1,16 +1,16 @@
 ---
-description: "About Zahra Mohajeri (زهرا مهاجری): Iranian journalist and short story writer, author of the collection The Door Opens Outward."
+description: "Zahra Mohajeri (زهرا مهاجری): Iranian journalist and short story writer, author of the story collection The Door Opens Outward (Goya, 2025)."
 layout: about
 title: About
 permalink: /en/about/
 epigraph: "Words are the Paintbrushes of the Soul; Craft Your Masterpiece!"
 ---
-## Hey! So Glad You're Here.
+I'm Zahra Mohajeri, an Iranian journalist and short story writer, with a degree in communication and media focused on journalism.
 
-I am Zahra Mohajeri, an Iranian journalist with a decade of experience, both in investigative journalism and news writing. I have worked at Iranian news agencies and newspapers as a social reporter and storyteller. I especially like writing and reporting across a variety of platforms, including print, TV, and online social media. I'm into videography and photography as well, skilled in Photoshop, Adobe Premiere, and After Effects.
+For more than ten years I worked in Iranian media, mostly covering social issues. Reporting and investigative journalism have been a central part of my working life. I have always been drawn to listening to people's stories, and to telling the experiences that tend to go unseen or unheard among the news and the events of everyday life.
 
-Also, I am delighted to introduce myself as an experienced writer specializing in short stories with a focus on social issues and women's rights. For over a decade, I have been driven by the desire to explore and express the concerns and challenges faced by society, particularly those concerning women.
+Alongside journalism, I write short stories. Social issues, human relationships and women's experiences are the subjects I return to most. My first story collection, [*The Door Opens Outward*](/fa/2025/09/dar-be-samt-birun-baz-mishavad/) (<bdi lang="fa" dir="rtl">در به سمت بیرون باز می‌شود</bdi>), was published by Goya in the summer of 2025.
 
-Furthermore, I am proud to be a member of the International Association of Professional Writers and Editors. This membership reflects my commitment to quality and professionalism in the field of writing.
+Books and literature have always been an important part of my life, and that love led me to continue my studies in information science and library studies. I'm also interested in children's and young adult literature, book criticism and everything to do with reading.
 
-My first collection of short stories, [*The Door Opens Outward*](/fa/2025/09/dar-be-samt-birun-baz-mishavad/) (<bdi lang="fa" dir="rtl">در به سمت بیرون باز می‌شود</bdi>), was published by Goya in the summer of 2025. This collection includes stories that delve into the depths of social issues and narrate the lives of women.
+This is where I gather my writing, from stories and book reviews to notes on what I read, what I watch and what's on my mind. I'd be glad to have you along as a reader.
