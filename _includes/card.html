@@ -1,9 +1,11 @@
-<a class="card" href="{{ include.post.url | relative_url }}" data-topic="{{ include.post.topic }}">
-  <figure>{% include cover.html post=include.post %}</figure>
+{%- include doc_meta.html post=include.post -%}
+{%- assign hascover = false -%}{%- if include.post.cover and include.post.cover != "" -%}{%- assign hascover = true -%}{%- endif -%}
+<a class="card{% unless hascover %} text-card{% endunless %}{% if dnoex %} untitled{% endif %}" href="{{ include.post.url | relative_url }}" data-topic="{{ dtopic }}">
+  {%- if hascover -%}<figure>{% include cover.html post=include.post %}</figure>{%- endif -%}
   <div class="body">
-    <span class="kicker">{{ include.post.kicker }}</span>
-    <h3>{{ include.post.title }}</h3>
-    <p>{{ include.post.excerpt | strip_html | truncate: 140 }}</p>
+    <span class="kicker">{{ dk }}</span>
+    <h3>{{ dtitle }}</h3>
+    {%- unless dnoex -%}<p>{{ include.post.excerpt | strip_html | truncate: 140 }}</p>{%- endunless -%}
     {% include meta.html post=include.post lang=include.lang %}
   </div>
 </a>

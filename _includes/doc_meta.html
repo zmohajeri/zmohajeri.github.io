@@ -1,0 +1,16 @@
+{%- comment -%} Sets dk (kicker), dtopic (topic), dtitle (title) for a post or a collection document. {%- endcomment -%}
+{%- assign d = include.post -%}{%- assign dnoex = false -%}
+{%- assign ui = site.data.ui.fa -%}
+{%- case d.collection -%}
+{%- when "rooznevesht" -%}
+{%- assign dk = ui.journal -%}{%- assign dtopic = ui.journal -%}
+{%- if d.heading -%}{%- assign dtitle = d.heading -%}{%- else -%}{%- assign dtitle = d.content | strip_html | strip_newlines | truncatewords: 28, "…" -%}{%- assign dnoex = true -%}{%- endif -%}
+{%- when "ketab" -%}
+{%- assign dk = ui.books -%}{%- assign dtopic = ui.books -%}
+{%- assign dtitle = d.book | default: d.title -%}
+{%- when "boresh" -%}
+{%- assign dk = ui.stories -%}{%- assign dtopic = ui.stories -%}
+{%- if d.heading -%}{%- assign dtitle = d.heading -%}{%- else -%}{%- assign dtitle = d.content | strip_html | strip_newlines | truncatewords: 28, "…" -%}{%- assign dnoex = true -%}{%- endif -%}
+{%- else -%}
+{%- assign dk = d.kicker -%}{%- assign dtopic = d.topic -%}{%- assign dtitle = d.title -%}
+{%- endcase -%}

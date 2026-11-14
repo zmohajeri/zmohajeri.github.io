@@ -7,6 +7,7 @@ title: Golden Glyph · زرنوشت
   {%- for lang in langs -%}
   {%- assign t = site.data.ui[lang] -%}
   {%- assign posts = site.categories[lang] -%}
+  {%- if lang == "fa" -%}{%- assign posts = posts | concat: site.rooznevesht | concat: site.ketab | concat: site.boresh | sort: "date" | reverse -%}{%- endif -%}
   <section class="half half-{{ lang }}" lang="{{ lang }}" dir="{% if lang == 'fa' %}rtl{% else %}ltr{% endif %}">
     <div class="half-in">
       <header class="intro">
@@ -19,14 +20,15 @@ title: Golden Glyph · زرنوشت
       {%- if first -%}
       <a class="feature" href="{{ first.url | relative_url }}" data-set-lang="{{ lang }}">
         <figure>{% include cover.html post=first %}</figure>
-        <span class="kicker">{{ first.kicker }}</span>
-        <h2>{{ first.title }}</h2>
+        {%- include doc_meta.html post=first -%}
+        <span class="kicker">{{ dk }}</span>
+        <h2>{{ dtitle }}</h2>
         {% include meta.html post=first lang=lang %}
       </a>
       {%- endif -%}
       <ul class="list">
         {%- for p in posts offset: 1 limit: 3 -%}
-        <li><a href="{{ p.url | relative_url }}" data-set-lang="{{ lang }}"><h3>{{ p.title }}</h3>{% include meta.html post=p lang=lang %}</a></li>
+        {%- include doc_meta.html post=p -%}<li><a href="{{ p.url | relative_url }}" data-set-lang="{{ lang }}"><h3>{% if dnoex %}{{ dtitle | truncatewords: 10, "…" }}{% else %}{{ dtitle }}{% endif %}</h3>{% include meta.html post=p lang=lang %}</a></li>
         {%- endfor -%}
       </ul>
       {%- if posts.size < 2 -%}<p class="empty">{{ t.empty }}</p>{%- endif -%}

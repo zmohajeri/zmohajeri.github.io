@@ -203,3 +203,8 @@ img.contain { object-fit: contain !important; background: color-mix(in srgb, var
 .story-excerpt { margin: 0 0 8px; line-height: 2; }
 .story-more { color: var(--glaze); font-weight: 600; font-size: 14px; }
 .story .prose p { margin-bottom: 1.6em; }
+
+/* cards without an image */
+.card.text-card { background: var(--card); border: 1px solid var(--line); border-top: 3px solid var(--glaze); border-radius: 4px; padding: 20px 20px 18px; }
+.card.text-card.untitled h3 { font-weight: 400; font-size: 1.05rem; line-height: 2; }
+.card.text-card:hover { border-color: var(--glaze); }

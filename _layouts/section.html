@@ -3,6 +3,9 @@ layout: default
 ---
 {%- assign t = site.data.ui[page.lang] -%}
 {%- assign posts = site.categories[page.lang] -%}
+{%- if page.lang == "fa" -%}
+{%- assign posts = posts | concat: site.rooznevesht | concat: site.ketab | concat: site.boresh | sort: "date" | reverse -%}
+{%- endif -%}
 {% include masthead.html %}
 <main class="wrap">
   {%- if posts.size > 0 -%}
@@ -10,21 +13,23 @@ layout: default
   <section class="lead">
     <a class="main" href="{{ lead.url | relative_url }}">
       <figure>{% include cover.html post=lead %}</figure>
-      <span class="kicker">{{ lead.kicker }}</span>
-      <h2>{{ lead.title }}</h2>
+      {%- include doc_meta.html post=lead -%}
+      <span class="kicker">{{ dk }}</span>
+      <h2>{{ dtitle }}</h2>
       <p>{{ lead.excerpt | strip_html | truncate: 260 }}</p>
       {% include meta.html post=lead lang=page.lang %}
     </a>
     <aside>
       <h4>{{ t.also_recent }}</h4>
       {%- for p in posts offset: 1 limit: 2 -%}
-      <a class="side" href="{{ p.url | relative_url }}"><span class="kicker">{{ p.kicker }}</span><h3>{{ p.title }}</h3>{% include meta.html post=p lang=page.lang %}</a>
+      {%- include doc_meta.html post=p -%}<a class="side" href="{{ p.url | relative_url }}"><span class="kicker">{{ dk }}</span><h3>{{ dtitle }}</h3>{% include meta.html post=p lang=page.lang %}</a>
       {%- endfor -%}
       {%- if posts.size < 2 -%}<p class="empty">{{ t.empty }}</p>{%- endif -%}
     </aside>
   </section>
   {%- if posts.size > 3 -%}
-  {%- assign topics = posts | map: "topic" | uniq -%}
+  {%- assign topics = "" | split: "" -%}
+  {%- for p in posts offset: 3 -%}{%- include doc_meta.html post=p -%}{%- unless topics contains dtopic -%}{%- assign topics = topics | push: dtopic -%}{%- endunless -%}{%- endfor -%}
   <div class="sechead">
     <h2>{{ t.more }}</h2>
     <div class="chips" role="group">
