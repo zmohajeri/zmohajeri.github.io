@@ -3,7 +3,7 @@ layout: post
 title: "Invisible"
 date: 2022-11-09 10:00:00 -0500
 kicker: "Short screenplay"
-topic: "Stories"
+topic: "Stories & Screenplays"
 cover: ""
 excerpt: "A short screenplay. A girl is reading on a bench in the university yard when a boy sits down next to her and asks: have you ever thought there might be invisible people around us?"
 ---

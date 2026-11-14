@@ -3,7 +3,7 @@ layout: post
 title: "Amazing city between the sea and mountains"
 date: 2020-09-06 04:00:00 +0000
 kicker: "Travel"
-topic: "Travel"
+topic: "Iran, Up Close"
 cover: "/assets/img/covers/amazing-city-between-the-sea-and-mountains.jpg"
 excerpt: "Researchers have reported the historical background of urban life in Ardabil eight thousand years ago. This background makes this city..."
 image: "/assets/img/covers/amazing-city-between-the-sea-and-mountains.jpg"

@@ -3,7 +3,7 @@ layout: post
 title: "Unveiling the Mysteries: Exploring the Hottest Spot on Earth"
 date: 2020-05-02 04:00:00 +0000
 kicker: "Travel"
-topic: "Travel"
+topic: "Iran, Up Close"
 cover: "https://static.wixstatic.com/media/12e485_b17fa1f58f9e443bb6cf378e5b7b9cfc~mv2.gif"
 excerpt: "In each region of four-season Iran, there is a kind of natural wonder that is different from other regions. Tourists can reach the most..."
 image: "https://static.wixstatic.com/media/12e485_b17fa1f58f9e443bb6cf378e5b7b9cfc~mv2.gif"

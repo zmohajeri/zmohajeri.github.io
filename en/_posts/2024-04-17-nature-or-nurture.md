@@ -3,7 +3,7 @@ layout: post
 title: "Nature or Nurture?!"
 date: 2024-04-17 01:15:39.666 +0000
 kicker: "Film"
-topic: "Film & Books"
+topic: "On Screen"
 cover: "/assets/img/covers/nature-or-nurture.jpg"
 excerpt: "The human experience is a complex tapestry woven from the threads of our genes and our environment. The documentary \"Three Identical Strangers\" delves into this very question, exploring the lives of triplets separated at birth and raised in vastly different circumstances. This is not just a heartwarming tale of reunion; it's a thought-provoking exploration of nature versus nurture, ethics in research, and the enduring power of human connection. Themes and Analysis The documentary centres on..."
 image: "/assets/img/covers/nature-or-nurture.jpg"

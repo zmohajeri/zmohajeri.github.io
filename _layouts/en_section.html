@@ -1,0 +1,21 @@
+---
+layout: default
+---
+{%- assign items = site.categories.en | where: "topic", page.section -%}
+{%- if page.section == "The Librarian's Notebook" -%}{%- assign items = items | concat: site.notebook -%}{%- endif -%}
+{%- assign items = items | sort: "date" | reverse -%}
+{%- assign sec = site.data.en_sections | where: "title", page.section | first -%}
+{% include masthead.html %}
+<main class="wrap">
+  <header class="journal-head notebook-head">
+    <h1>{{ page.section }}</h1>
+    <p>{{ sec.tag }}</p>
+  </header>
+  {%- if items.size == 0 -%}
+  <p class="empty journal-empty">More writing is on its way.</p>
+  {%- else -%}
+  <section class="grid notebook-grid">
+    {%- for p in items -%}{% include card.html post=p lang="en" %}{%- endfor -%}
+  </section>
+  {%- endif -%}
+</main>

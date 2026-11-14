@@ -3,7 +3,7 @@ layout: post
 title: "The Man Who Inherited Kindness"
 date: 2022-03-03 05:00:00 +0000
 kicker: "Profile"
-topic: "Stories"
+topic: "Essays"
 cover: "/assets/img/covers/the-man-who-inherited-kindness.jpg"
 excerpt: "In our unkind world, some people are trying to make it beautiful. “Johnny Barnes” was one of those who spread love and kindness to..."
 image: "/assets/img/covers/the-man-who-inherited-kindness.jpg"

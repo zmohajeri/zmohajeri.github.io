@@ -3,7 +3,7 @@ layout: post
 title: "Exploring the Flavors of Persian Breakfast: A Culinary Delight to Start Your Day"
 date: 2020-03-03 01:23:02.576 +0000
 kicker: "Food"
-topic: "Culture"
+topic: "Iran, Up Close"
 cover: "/assets/img/covers/exploring-the-flavors-of-persian-breakfast-a-culinary-delight-to-start-your-day.jpg"
 excerpt: "Breakfast is a very important meal — it can either make or break your day. Since one of the attractions of the trip is to taste the food..."
 image: "/assets/img/covers/exploring-the-flavors-of-persian-breakfast-a-culinary-delight-to-start-your-day.jpg"

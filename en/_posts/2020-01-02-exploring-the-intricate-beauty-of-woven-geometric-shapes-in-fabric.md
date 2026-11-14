@@ -3,7 +3,7 @@ layout: post
 title: "Exploring the Intricate Beauty of Woven Geometric Shapes in Fabric"
 date: 2020-01-02 05:00:00 +0000
 kicker: "Craft"
-topic: "Culture"
+topic: "Iran, Up Close"
 cover: "/assets/img/covers/exploring-the-intricate-beauty-of-woven-geometric-shapes-in-fabric.jpg"
 excerpt: "Nobody knows where the warp and weft first appeared and the history of weaving.; But for years, this has artistically perpetuated many..."
 image: "/assets/img/covers/exploring-the-intricate-beauty-of-woven-geometric-shapes-in-fabric.jpg"

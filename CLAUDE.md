@@ -14,8 +14,9 @@ Content was migrated from her old Wix site (zmohajeri.wixsite.com/zmohajeri) and
 
 | Section | Where files go | URL | Use for |
 |---|---|---|---|
-| English magazine (Golden Glyph) | `en/_posts/` | `/en/` | English essays, reviews, travel |
-| The Librarian's Notebook | `_notebook/` | `/en/librarians-notebook/` | English writing about libraries, reading, librarianship (her field). Front matter: title, date, cover, excerpt (kicker/topic/layout come from defaults) |
+| English magazine (Golden Glyph) | `en/_posts/` | `/en/` | All English posts. Each post's `topic` puts it in one English section (below) |
+| English sections (listed in `_data/en_sections.yml`, pages use `_layouts/en_section.html`) | — | `/en/essays/`, `/en/iran-up-close/`, `/en/on-screen/`, `/en/stories/`, `/en/librarians-notebook/` | `topic` must be exactly one of: `Essays`, `Iran, Up Close`, `On Screen`, `Stories & Screenplays`, `The Librarian's Notebook` |
+| The Librarian's Notebook (also a collection) | `_notebook/` or `en/_posts` with that topic | `/en/librarians-notebook/` | Libraries, reading, librarianship and English book reviews (she agreed book reviews go here) |
 | Persian magazine (زرنوشت) | `fa/_posts/` | `/fa/` | Persian reports (گزارش), film reviews (معرفی فیلم), notes (یادداشت), interviews (گفت‌وگو) |
 | روزنوشت (journal) | `_rooznevesht/` | `/fa/rooznevesht/` | Posts tagged #روز_نوشت |
 | چهارشنبه‌ها با کتاب (book intros) | `_ketab/` | `/fa/chaharshanbe-ha-ba-ketab/` | Posts tagged #چهارشنبه_ها_با_کتاب, or any book introduction |
@@ -37,7 +38,7 @@ layout: post
 title: "…"
 date: 2017-07-31 10:00:00 -0400
 kicker: "گزارش"          # small label: گزارش / معرفی فیلم / یادداشت / گفت‌وگو / کتاب ; English: Essay, Film, Travel…
-topic: "گزارش"           # filter chip on the section page (English topics: Travel, Culture, Film & Books, Essays, Stories)
+topic: "گزارش"           # filter chip / section. English: Essays | Iran, Up Close | On Screen | Stories & Screenplays | The Librarian's Notebook
 cover: "/assets/img/covers/slug.jpg"   # or "" if no image
 cover_fit: contain        # only for portrait images (posters, book covers) so they are not cropped
 image: "/assets/img/covers/slug.jpg"   # same as cover (social share image); omit if no cover
@@ -65,7 +66,7 @@ Story excerpt (`_boresh/…`): `title`, `heading` (she asked Claude to choose on
 - Section subheadings marked with `*` become `##` headings.
 - A quoted speaker's long first-person account can go in a `>` blockquote; verse lines go in `<p class="poem">line<br>line</p>` (centered).
 - If a post has no title, create a short one from her own text and tell her.
-- Screenplays (she asked to have these polished and formatted): English magazine, kicker `Short screenplay`, topic `Stories`. Body is a `<div class="screenplay">` with `<p>` classes `sp-title`, `sp-by`, `sp-scene` (EXT./INT. heading), `sp-action`, `sp-char`, `sp-paren`, `sp-dial`, `sp-trans` (FADE IN/OUT); see `en/_posts/2022-11-09-invisible.md`. Courier Prime font.
+- Screenplays (she asked to have these polished and formatted): English magazine, kicker `Short screenplay`, topic `Stories & Screenplays`. Body is a `<div class="screenplay">` with `<p>` classes `sp-title`, `sp-by`, `sp-scene` (EXT./INT. heading), `sp-action`, `sp-char`, `sp-paren`, `sp-dial`, `sp-trans` (FADE IN/OUT); see `en/_posts/2022-11-09-invisible.md`. Courier Prime font.
 
 ## Dates
 

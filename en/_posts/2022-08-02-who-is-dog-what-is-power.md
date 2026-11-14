@@ -3,7 +3,7 @@ layout: post
 title: "Who is “Dog’’? What is “Power’’?"
 date: 2022-08-02 04:00:00 +0000
 kicker: "Film"
-topic: "Film & Books"
+topic: "On Screen"
 cover: "/assets/img/covers/who-is-dog-what-is-power.jpg"
 excerpt: "The “Power of the Dog” movie review After Jane Campion’s first film, “the piano”, which won the Palme d’Or, her fans were eagerly..."
 image: "/assets/img/covers/who-is-dog-what-is-power.jpg"
