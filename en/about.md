@@ -11,6 +11,8 @@ For more than ten years I worked in Iranian media, mostly covering social issues
 
 Alongside journalism, I write short stories. Social issues, human relationships and women's experiences are the subjects I return to most. My first story collection, [*The Door Opens Outward*](/fa/2025/09/dar-be-samt-birun-baz-mishavad/) (<bdi lang="fa" dir="rtl">در به سمت بیرون باز می‌شود</bdi>), was published by Goya in the summer of 2025.
 
+I am also a member of the International Association of Professional Writers and Editors.
+
 Books and literature have always been an important part of my life, and that love led me to continue my studies in information science and library studies. I'm also interested in children's and young adult literature, book criticism and everything to do with reading.
 
 This is where I gather my writing, from stories and book reviews to notes on what I read, what I watch and what's on my mind. I'd be glad to have you along as a reader.
