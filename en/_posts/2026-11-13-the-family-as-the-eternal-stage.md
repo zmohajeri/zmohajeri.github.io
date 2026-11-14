@@ -4,7 +4,9 @@ title: "The Family as the Eternal Stage"
 date: 2026-11-13 18:00:00 -0500
 kicker: "Essay"
 topic: "Essays"
-cover: ""
+cover: "/assets/img/covers/the-family-as-the-eternal-stage.jpg"
+cover_fit: contain
+image: "/assets/img/covers/the-family-as-the-eternal-stage.jpg"
 excerpt: "Stories of love, loss and betrayal within the family have stood at the center of theatre since its beginnings. Four plays, from Oedipus Rex to The Cherry Orchard, show how domestic themes have shaped dramatic storytelling across the ages."
 ---
 From the moment theatre emerged in ancient rituals, stories of love, loss, and betrayal within the family have stood at its center. While many scholars argue that domestic drama only became prominent with the rise of Naturalist playwrights like Ibsen and Chekhov, this view overlooks the deep emotional and relational core that has existed in drama across all eras. Whether set in palaces, parishes, or peasant homes, dramas have long used family dynamics to explore human nature and societal tension. By examining four plays from different periods—*Oedipus Rex*, *Everyman*, *Othello*, and *The Cherry Orchard*—this essay reveals how domestic themes have shaped theatrical storytelling from the very beginning.
@@ -34,6 +36,8 @@ Even in plays where royalty or religion seem to dominate, the emotional weight o
 ## Conclusion: The Family as the Eternal Stage
 
 From Sophocles to Chekhov, the home has always been a stage for human drama. Domestic issues—family loyalty, betrayal, marriage, love, and grief—cut across all historical periods. Even when the focus of a play appears religious or political, it is often within the domestic sphere that the deepest emotions play out. These intimate conflicts give drama its universal appeal. The persistence of domestic themes across centuries underscores a timeless truth: while the world outside may change, the struggles and joys within the family remain deeply familiar. Domestic drama endures not only because it reflects life, but because it helps us make sense of it.
+
+<p class="credit">Image: Théodore Chassériau, <em>Othello and Desdemona in Venice</em>, 1850. Musée du Louvre, Paris.</p>
 
 <div class="works-cited" markdown="1">
 

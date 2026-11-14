@@ -215,3 +215,4 @@ img.contain { object-fit: contain !important; background: color-mix(in srgb, var
 .works-cited p { padding-inline-start: 2em; text-indent: -2em; margin: 0 0 .8em; }
 .prose h2 { font-family: var(--display); font-weight: 600; font-size: 1.35rem; line-height: 1.3; margin: 1.8em 0 .6em; }
 .lang-fa .prose h2 { font-family: var(--fa); }
+.prose .credit { font-size: .85rem; color: var(--muted); font-family: var(--text); }
