@@ -1,7 +1,8 @@
 ---
 title: "What a City's Libraries Reveal About Its Neighborhoods"
 date: 2025-10-15 10:00:00 -0400
-cover: ""
+cover: "/assets/img/covers/what-libraries-reveal.jpg"
+image: "/assets/img/covers/what-libraries-reveal.jpg"
 excerpt: "A public library is more than a place to borrow books. Studying eleven branches across one large city, I found that each library mirrors its neighborhood, and that the busiest ones are not in the richest areas."
 ---
 We usually think of a public library as a place to borrow books. Spend a few afternoons in library branches across a large city, though, and you start to see something else: each branch is a mirror of the neighborhood around it.
