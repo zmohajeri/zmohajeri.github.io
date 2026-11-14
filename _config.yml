@@ -34,6 +34,8 @@ collections:
     output: true
     permalink: /fa/boreshi-az-dastan/:year/:month/:day/:title/
 defaults:
+  - scope: { path: "google1c0a51237369fd2f.html" }
+    values: { sitemap: false }
   - scope: { path: "" }
     values: { image: /assets/img/zahra-mohajeri.jpg }
   - scope: { path: "", type: "boresh" }
