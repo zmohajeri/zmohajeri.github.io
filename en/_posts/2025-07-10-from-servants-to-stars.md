@@ -4,7 +4,8 @@ title: "From Servants to Stars"
 date: 2025-07-10 10:00:00 -0400
 kicker: "Essay"
 topic: "Essays"
-cover: ""
+cover: "/assets/img/covers/from-servants-to-stars.jpg"
+image: "/assets/img/covers/from-servants-to-stars.jpg"
 excerpt: "Before the 1600s, plays belonged to kings and queens. Then servants, merchants and middle-class women began to take the stage. Molière's Tartuffe and Congreve's The Way of the World show how theatre started to reflect real society."
 ---
 Before the 1600s, the old plays focused on kings, queens, and other rich and powerful people, and most of the main characters were elite and powerful. These plays shed light on their emotions, their duties, and the tragic consequences of their actions. But in the 1600s, something began to change. Writers in both England and France started creating characters from outside the upper class and portrayed servants, merchants, and middle-class women. This change is clear in Molière's *Tartuffe* and William Congreve's *The Way of the World*, where people from lower social classes are not only present but also important to the plot. These plays demonstrate that, during the 1600s, theatre was starting to reflect real society, where intelligence and power could be found in all classes, not just the rich.
@@ -40,6 +41,8 @@ Compared with *Phaedra*, the difference is clear. In Racine's play, all the char
 ## Who Deserves to Be Heard?
 
 *Tartuffe* and *The Way of the World* broke away from that style. They gave voice to people who were often ignored and marginalized. Servants, women, and the middle class became the characters who were smart, active, and central to the story. These plays show how theatre was changing just as society was. Instead of only glorifying kings and heroes, it began to ask: who really deserves to be heard?
+
+<p class="credit">Image: first edition of <em>Le Tartuffe, ou l'Imposteur</em>, Paris, 1669, with its frontispiece showing Orgon hidden under the table.</p>
 
 <div class="works-cited" markdown="1">
 
