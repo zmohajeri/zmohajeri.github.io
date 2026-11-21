@@ -2,39 +2,46 @@
 layout: default
 title: Golden Glyph · زرنوشت
 ---
-<main class="split">
+<header class="home-top">
+  <a class="me" href="{{ '/' | relative_url }}">Zahra Mohajeri <span lang="fa">زهرا مهاجری</span></a>
+  <nav>
+    <a href="{{ '/en/about/' | relative_url }}">About</a>
+    <a href="{{ '/fa/about/' | relative_url }}" lang="fa">درباره‌ی من</a>
+    <a href="https://t.me/zar_neveshtt" target="_blank" rel="noopener">Telegram</a>
+  </nav>
+</header>
+<main>
+  <section class="cover">
+    <img class="cover-photo" src="{{ '/assets/img/zahra-mohajeri-cover.jpg' | relative_url }}" alt="Zahra Mohajeri" width="695" height="695">
+    <div class="cover-text">
+      <p class="cover-role">Journalist · Short story writer</p>
+      <h1>Stories worth <em>telling</em></h1>
+      <p class="cover-fa" lang="fa" dir="rtl">روایت‌هایی که باید شنیده شوند</p>
+      <p class="cover-bio">Reporting, fiction, film and books, written in two languages. Choose where you'd like to read.</p>
+      <div class="doors">
+        <a class="door door-en" href="{{ '/en/' | relative_url }}"><b>English</b><small>Golden Glyph</small></a>
+        <a class="door door-fa" href="{{ '/fa/' | relative_url }}" lang="fa"><b>فارسی</b><small>زرنوشت</small></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="latest">
   {%- assign langs = "en,fa" | split: "," -%}
   {%- for lang in langs -%}
   {%- assign t = site.data.ui[lang] -%}
   {%- assign posts = site.categories[lang] -%}
   {%- if lang == "en" -%}{%- assign posts = posts | concat: site.notebook | sort: "date" | reverse -%}{%- endif -%}
   {%- if lang == "fa" -%}{%- assign posts = posts | concat: site.rooznevesht | concat: site.ketab | concat: site.boresh | sort: "date" | reverse -%}{%- endif -%}
-  <section class="half half-{{ lang }}" lang="{{ lang }}" dir="{% if lang == 'fa' %}rtl{% else %}ltr{% endif %}">
-    <div class="half-in">
-      <header class="intro">
-        <span class="kicker">{% if lang == 'fa' %}فارسی{% else %}English{% endif %}</span>
-        <a class="name" href="{{ '/' | append: lang | append: '/' | relative_url }}" data-set-lang="{{ lang }}">{% if lang == 'fa' %}زر<em>نوشت</em>{% else %}Golden <em>Glyph</em>{% include glyph.html %}{% endif %}</a>
-        <p class="tag">{{ t.home_tagline }}</p>
-        <a class="byline" href="{{ '/' | append: lang | append: '/about/' | relative_url }}">{{ t.byline }}</a>
-      </header>
-      {%- assign first = posts.first -%}
-      {%- if first -%}
-      <a class="feature" href="{{ first.url | relative_url }}" data-set-lang="{{ lang }}">
-        <figure>{% include cover.html post=first %}</figure>
-        {%- include doc_meta.html post=first -%}
-        <span class="kicker">{{ dk }}</span>
-        <h2>{{ dtitle }}</h2>
-        {% include meta.html post=first lang=lang %}
-      </a>
-      {%- endif -%}
-      <ul class="list">
-        {%- for p in posts offset: 1 limit: 3 -%}
-        {%- include doc_meta.html post=p -%}<li><a href="{{ p.url | relative_url }}" data-set-lang="{{ lang }}"><h3>{% if dnoex %}{{ dtitle | truncatewords: 10, "…" }}{% else %}{{ dtitle }}{% endif %}</h3>{% include meta.html post=p lang=lang %}</a></li>
+    <div class="latest-col latest-{{ lang }}" lang="{{ lang }}" dir="{% if lang == 'fa' %}rtl{% else %}ltr{% endif %}">
+      <h2>{% if lang == 'fa' %}تازه‌ترین‌ها به فارسی{% else %}Latest in English{% endif %}</h2>
+      <ul>
+        {%- for p in posts limit: 3 -%}
+        {%- include doc_meta.html post=p -%}
+        <li><a href="{{ p.url | relative_url }}"><span class="kicker">{{ dk }}</span><h3>{% if dnoex %}{{ dtitle | truncatewords: 10, "…" }}{% else %}{{ dtitle }}{% endif %}</h3></a></li>
         {%- endfor -%}
       </ul>
-      {%- if posts.size < 2 -%}<p class="empty">{{ t.empty }}</p>{%- endif -%}
-      <a class="enter" href="{{ '/' | append: lang | append: '/' | relative_url }}" data-set-lang="{{ lang }}">{{ t.enter }} {% if lang == 'fa' %}←{% else %}→{% endif %}</a>
+      <a class="more" href="{{ '/' | append: lang | append: '/' | relative_url }}">{% if lang == 'fa' %}همه‌ی نوشته‌های فارسی ←{% else %}All English writing →{% endif %}</a>
     </div>
-  </section>
   {%- endfor -%}
+  </section>
 </main>

@@ -25,7 +25,7 @@ Content was migrated from her old Wix site (zmohajeri.wixsite.com/zmohajeri) and
 
 - `/en/` and the English half of the home page also include `_notebook` entries. More English sections may be added later (she has no ideas yet).
 - `/fa/` and the Persian half of the home page merge `fa/_posts` with all three collections (sorted by date), each with its own filter chip. Film reviews stay in `fa/_posts` with kicker/topic `معرفی فیلم` (decided: no separate section).
-- Home page (`index.html`) is split: English half / Persian half. Site names: **Golden Glyph** (English, with a gold quill SVG `_includes/glyph.html`) and **زرنوشت** (Persian). Her name appears in the bylines, footer and About pages.
+- Home page (`index.html`, styles under `/* home cover */` in `assets/style.css`): a cover with her round black-and-white photo (`assets/img/zahra-mohajeri-cover.jpg`, a square crop of `zahra-mohajeri.jpg` that hides the ear; she chose this), role line, headline «Stories worth telling» / «روایت‌هایی که باید شنیده شوند», and two round buttons: English (Golden Glyph, `/en/`) and فارسی (زرنوشت, `/fa/`). Below it, titles only (no images) of the 3 latest posts per language, then links to each magazine. Site names: **Golden Glyph** (English, with a gold quill SVG `_includes/glyph.html`, used in the masthead) and **زرنوشت** (Persian). Her name appears in the home header, bylines, footer and About pages.
 - Interface strings for both languages: `_data/ui.yml`. Styles: `assets/style.css`. Layouts: `_layouts/`, includes: `_includes/`.
 
 ## Front matter templates
