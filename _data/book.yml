@@ -34,7 +34,7 @@ en:
   quote_label: "From the back cover (in Persian)"
   find: "Find the book on:"
 links:
-  - { name: "Goodreads", name_fa: "گودریدز", url: "" }
-  - { name: "Taaghche", name_fa: "طاقچه", url: "https://taaghche.com/book/238911/در-به-سمت-بیرون-باز-می-شود" }
-  - { name: "Fidibo", name_fa: "فیدیبو", url: "" }
+  - { name: "Goodreads", name_fa: "گودریدز", url: "https://www.goodreads.com/book/show/244557372" }
+  - { name: "Taaghche", name_fa: "طاقچه", url: "https://taaghche.com/book/238911/%D8%AF%D8%B1-%D8%A8%D9%87-%D8%B3%D9%85%D8%AA-%D8%A8%DB%8C%D8%B1%D9%88%D9%86-%D8%A8%D8%A7%D8%B2-%D9%85%DB%8C-%D8%B4%D9%88%D8%AF" }
+  - { name: "Fidibo", name_fa: "فیدیبو", url: "https://fidibo.com/book/184349-%D8%AF%D8%B1-%D8%A8%D9%87-%D8%B3%D9%85%D8%AA-%D8%A8%DB%8C%D8%B1%D9%88%D9%86-%D8%A8%D8%A7%D8%B2-%D9%85%DB%8C-%D8%B4%D9%88%D8%AF" }
   - { name: "Iranketab", name_fa: "ایران‌کتاب", url: "https://www.iranketab.ir/book/165848-the-door-opens-outwards" }
