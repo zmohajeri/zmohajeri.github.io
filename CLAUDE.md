@@ -85,6 +85,7 @@ Story excerpt (`_boresh/…`): `title`, `heading` (she asked Claude to choose on
 
 - Never write where she lives (city or country) anywhere on the site.
 - Do not publish her email address. Contact on the site is only the Telegram channel link.
+- Her photos: never show the ear. About pages, schema.org and the default share image use `assets/img/zahra-mohajeri-portrait.jpg` (4:5 crop); the home cover uses `zahra-mohajeri-cover.jpg` (square crop). `zahra-mohajeri.jpg` is the uncropped original; keep it but don't display it.
 - Bios: the English About page includes membership in the International Association of Professional Writers and Editors; the Persian one does not (her choice). No software skills list (Photoshop/Premiere etc.) in either.
 
 ## SEO (set up Nov 2026)

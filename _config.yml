@@ -4,7 +4,7 @@ name_fa: زهرا مهاجری
 title_fa: زرنوشت
 author: Zahra Mohajeri
 description: "Zahra Mohajeri (زهرا مهاجری) — Iranian writer and journalist. Short stories, essays, reports and reviews in English and Persian."
-logo: /assets/img/zahra-mohajeri.jpg
+logo: /assets/img/zahra-mohajeri-portrait.jpg
 social:
   name: Zahra Mohajeri
   links:
@@ -41,7 +41,7 @@ defaults:
   - scope: { path: "google1c0a51237369fd2f.html" }
     values: { sitemap: false }
   - scope: { path: "" }
-    values: { image: /assets/img/zahra-mohajeri.jpg }
+    values: { image: /assets/img/zahra-mohajeri-portrait.jpg }
   - scope: { path: "", type: "boresh" }
     values: { lang: fa, layout: story }
   - scope: { path: "", type: "notebook" }
