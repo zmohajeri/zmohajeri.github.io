@@ -1,0 +1,16 @@
+{%- assign b = site.data.book -%}{%- assign bl = b[page.lang] -%}
+<section class="book-box">
+  <img class="book-cover" src="{{ b.cover | relative_url }}" alt="{{ bl.title }}">
+  <div class="book-info">
+    <span class="kicker">{{ bl.label }}</span>
+    <h2>{{ bl.title }}</h2>
+    {%- if bl.title_fa -%}<p class="book-fa" lang="fa" dir="rtl">{{ bl.title_fa }}</p>{%- endif -%}
+    <p class="book-meta">{{ bl.meta }}</p>
+    <p class="book-blurb">{{ bl.blurb }}{% if bl.blurb_source %} <span class="book-src">({{ bl.blurb_source }})</span>{% endif %}</p>
+    {%- if b.back_cover -%}<figure class="book-quote-wrap"><blockquote class="book-quote" lang="fa" dir="rtl">{{ b.back_cover | strip | newline_to_br }}</blockquote><figcaption>{{ bl.quote_label }}</figcaption></figure>{%- endif -%}
+    <p class="book-links"><span>{{ bl.find }}</span>
+      {%- for l in b.links -%}{%- if l.url != "" -%}<a href="{{ l.url }}" target="_blank" rel="noopener">{% if page.lang == 'fa' %}{{ l.name_fa }}{% else %}{{ l.name }}{% endif %}</a>{%- endif -%}{%- endfor -%}
+    </p>
+    <a class="book-more" href="{{ b.review_url | relative_url }}">{{ bl.more }} {% if page.lang == 'fa' %}←{% else %}→{% endif %}</a>
+  </div>
+</section>

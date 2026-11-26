@@ -1,0 +1,40 @@
+# Her story collection, shown as a box on both About pages (_includes/book.html).
+cover: /assets/img/covers/dar-be-samt-birun-baz-mishavad.jpg
+review_url: /fa/2025/09/dar-be-samt-birun-baz-mishavad/
+pages: 167
+isbn: "978-622-312-212-5"
+back_cover: |
+  آنا از مغازه پرید بیرون. نگاهش به هر طرف دوید. دلش چنگ شد.
+  «یه دختر کوچیک، ژاکت صورتی تنش بود، موهاش کوتاه... کسی ندیده؟»
+  نگهبان گفت: «نگران نباشین، اگه بیرون نرفته باشه، پیدا می‌شه.»
+  اما آنا دلش گواهی بدی می‌داد. خم شد، سرش را میان دستانش گرفت. چند نفر دورش جمع شدند. کسی دستش را روی شانه‌اش گذاشت:
+  «گم شده؟ توی همین طبقه؟ چند سالشه؟»
+  آنا سرش را بلند کرد. چشم‌هایش قرمز و وحشت‌زده بود. بغض کرد و فریاد زد:
+  «به خدا بچه‌ی من نبود! اصلاً بچه‌ی من نبود!»
+  آدم‌ها باهم پچ‌پچ کردند. کسی گفت: «بنده خدا قاطی کرده.»
+  یکی دیگر پچ‌پچ کرد: «ولش کن، انگار حالش خوب نیست...»
+  آنا دور خودش چرخید. نفسش به شماره افتاده بود. می‌خواست فرار کند. از این نگاه‌ها، از این فکرها، از این حقیقت که انگار داشت توی مغزش تغییر شکل می‌داد.
+  «به من ربطی نداره، بفهمین! من نمی‌خواستم بیارمش بیرون! من بچه ندارم...!»
+fa:
+  label: "کتاب من"
+  title: "در به سمت بیرون باز می‌شود"
+  meta: "مجموعه داستان کوتاه · نشر گویا · تابستان ۱۴۰۴ · ۱۶۷ صفحه · شابک ۹۷۸-۶۲۲-۳۱۲-۲۱۲-۵"
+  blurb: "این مجموعه با روایت‌هایی معاصر و نگاهی موشکافانه به زندگی زنان و مادران در بستر شهری امروز، به بررسی روابط خانوادگی، دغدغه‌های روزمره و چالش‌های عاطفی و اجتماعی می‌پردازد. زبان اثر صمیمی و نزدیک به زندگی روزمره است و با جزئیات دقیق، فضای خانه‌ها، خیابان‌ها و روابط انسانی را به تصویر می‌کشد."
+  blurb_source: "از معرفی طاقچه"
+  quote_label: "از متن کتاب، پشت جلد"
+  more: "معرفی کامل کتاب"
+  find: "کتاب را در این سایت‌ها پیدا کنید:"
+en:
+  label: "My book"
+  title: "The Door Opens Outward"
+  title_fa: "در به سمت بیرون باز می‌شود"
+  meta: "Short stories (in Persian) · Goya Publishing · 2025 · 167 pages · ISBN 978-622-312-212-5"
+  blurb: "Contemporary stories that look closely at the lives of women and mothers in today's urban Iran: family relationships, everyday worries, and emotional and social struggles. The language is warm and close to daily life, and the stories capture homes, streets and human relationships in fine detail."
+  more: "Read the full review (Persian)"
+  quote_label: "From the back cover (in Persian)"
+  find: "Find the book on:"
+links:
+  - { name: "Goodreads", name_fa: "گودریدز", url: "" }
+  - { name: "Taaghche", name_fa: "طاقچه", url: "https://taaghche.com/book/238911/در-به-سمت-بیرون-باز-می-شود" }
+  - { name: "Fidibo", name_fa: "فیدیبو", url: "" }
+  - { name: "Iranketab", name_fa: "ایران‌کتاب", url: "https://www.iranketab.ir/book/165848-the-door-opens-outwards" }
