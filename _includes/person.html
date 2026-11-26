@@ -1,7 +1,9 @@
+{%- assign bk = site.data.book -%}
 <script type="application/ld+json">
-{
+[{
   "@context": "https://schema.org",
   "@type": "Person",
+  "@id": "{{ site.url }}/#zahra-mohajeri",
   "name": "Zahra Mohajeri",
   "alternateName": ["زهرا مهاجری", "Zahra Mohajeri"],
   "url": "{{ site.url }}/",
@@ -10,10 +12,33 @@
   "description": "Iranian journalist and short story writer; author of the story collection «در به سمت بیرون باز می‌شود» (Goya, 2025).",
   "knowsLanguage": ["fa", "en"],
   "memberOf": { "@type": "Organization", "name": "International Association of Professional Writers and Editors" },
-  "sameAs": ["https://t.me/zar_neveshtt", "https://zmohajeri.wixsite.com/zmohajeri"],
+  "sameAs": [
+    "https://t.me/zar_neveshtt",
+    "https://zmohajeri.wixsite.com/zmohajeri",
+    "https://www.iranketab.ir/profile/70774-%D8%B2%D9%87%D8%B1%D8%A7-%D9%85%D9%87%D8%A7%D8%AC%D8%B1%DB%8C",
+    "https://fidibo.com/contributors/61264-%D8%B2%D9%87%D8%B1%D8%A7-%D9%85%D9%87%D8%A7%D8%AC%D8%B1%DB%8C"
+  ],
   "mainEntityOfPage": [
     { "@type": "WebPage", "url": "{{ site.url }}/en/about/" },
     { "@type": "WebPage", "url": "{{ site.url }}/fa/about/" }
   ]
-}
+},
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": "{{ bk.fa.title }}",
+  "alternateName": "{{ bk.en.title }}",
+  "author": { "@id": "{{ site.url }}/#zahra-mohajeri", "name": "Zahra Mohajeri" },
+  "inLanguage": "fa",
+  "genre": "Short stories",
+  "bookFormat": "https://schema.org/Paperback",
+  "isbn": "{{ bk.isbn }}",
+  "numberOfPages": {{ bk.pages }},
+  "datePublished": "2025",
+  "publisher": { "@type": "Organization", "name": "نشر گویا (Goya Publishing)" },
+  "image": "{{ site.url }}{{ bk.cover }}",
+  "description": {{ bk.fa.blurb | jsonify }},
+  "url": "{{ site.url }}{{ bk.review_url }}",
+  "sameAs": [{% for l in bk.links %}"{{ l.url }}"{% unless forloop.last %}, {% endunless %}{% endfor %}]
+}]
 </script>
