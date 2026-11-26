@@ -1,6 +1,6 @@
 {%- assign b = site.data.book -%}{%- assign bl = b[page.lang] -%}
 <section class="book-box">
-  <img class="book-cover" src="{{ b.cover | relative_url }}" alt="{{ bl.title }}">
+  <img class="bb-cover" src="{{ b.cover | relative_url }}" alt="{{ bl.title }}">
   <div class="book-info">
     <span class="kicker">{{ bl.label }}</span>
     <h2>{{ bl.title }}</h2>
